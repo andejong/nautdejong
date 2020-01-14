@@ -1,0 +1,7 @@
+{
+    "name": "nautdejong/website",
+    "description": "Website van Naut de Jong",
+    "require-dev": {
+        "phalcon/devtools": "~4.0"
+    }
+}
