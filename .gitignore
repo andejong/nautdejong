@@ -99,5 +99,4 @@ fabric.properties
 data/
 
 # Cache contents
-cache/*
-!cache/README.md
+cache/
