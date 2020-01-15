@@ -9,4 +9,5 @@ FROM mileschou/phalcon:fpm-alpine
 # ENV DB_PASS="secret"
 ENV APPLICATION_ENV="development"
 RUN docker-phalcon-install-devtools
+RUN apk --update add git nodejs-npm
 WORKDIR /var/www
