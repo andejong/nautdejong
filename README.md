@@ -1,12 +1,12 @@
 # nautdejong
-Website van Naut de Jong
+Website van Naut de Jong.
 
-# run
+## run
 ```
 docker-compose up -d
 ```
 
-# rebuild container
+## rebuild container
 ```
 docker-compose build <SERVICE>
 ```

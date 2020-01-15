@@ -97,3 +97,7 @@ fabric.properties
 
 # Docker container
 data/
+
+# Cache contents
+cache/*
+!cache/README.md
