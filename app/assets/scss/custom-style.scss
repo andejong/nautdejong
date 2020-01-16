@@ -1,0 +1,11 @@
+/* Custom style */
+/* Normalize */
+button:focus,.btn:focus {
+	outline:    0;
+	box-shadow:	none;
+}
+
+.custom-select {
+	-moz-appearance:    none;
+	-webkit-appearance:	none;
+}

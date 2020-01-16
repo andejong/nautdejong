@@ -1,10 +1,10 @@
 /* Load custom variables */
-// @import "./custom-variables";
+@import "./custom-variables";
 
-/*
+/*!
  * Load Font Awesome
  * Path: /node_modules/@fortawesome/@fontawesome-free/
- */
+!*/
 // @import "@fortawesome/fontawesome-free";
 
 /* Import this file to translate v4 to v5 */
@@ -12,10 +12,10 @@
 
 /* Modular import */
 /* Required */
-// @import "@fortawesome/fontawesome-free/scss/_variables";
-// @import "@fortawesome/fontawesome-free/scss/_mixins";
-// @import "@fortawesome/fontawesome-free/scss/_core";
-// @import "@fortawesome/fontawesome-free/scss/_icons";
+@import "@fortawesome/fontawesome-free/scss/_variables";
+@import "@fortawesome/fontawesome-free/scss/_mixins";
+@import "@fortawesome/fontawesome-free/scss/_core";
+@import "@fortawesome/fontawesome-free/scss/_icons";
 
 /* Optional */
 // @import "@fortawesome/fontawesome-free/scss/_larger";
@@ -31,26 +31,26 @@
 /* Enable "fab" */
 // @import "@fortawesome/fontawesome-free/scss/brands";
 /* Enable "fas" */
-// @import "@fortawesome/fontawesome-free/scss/solid";
+@import "@fortawesome/fontawesome-free/scss/solid";
 /* Enable "far" */
 // @import "@fortawesome/fontawesome-free/scss/regular";
 
-/*
+/*!
  * Load Bootstrap
  * Path: /node_modules/bootstrap/dist/css/
- */
-@import "bootstrap";
+!*/
+// @import "bootstrap";
 
 /* Modular import */
 /* Required */
-// @import "bootstrap/scss/_functions";
-// @import "bootstrap/scss/_variables";
-// @import "bootstrap/scss/_mixins";
-// @import "bootstrap/scss/_root";
-// @import "bootstrap/scss/_reboot";
-// @import "bootstrap/scss/_type";
-// @import "bootstrap/scss/_grid";
-// @import "bootstrap/scss/_utilities";
+@import "bootstrap/scss/_functions";
+@import "bootstrap/scss/_variables";
+@import "bootstrap/scss/_mixins";
+@import "bootstrap/scss/_root";
+@import "bootstrap/scss/_reboot";
+@import "bootstrap/scss/_type";
+@import "bootstrap/scss/_grid";
+@import "bootstrap/scss/_utilities";
 
 /* Optional */
 // @import "bootstrap/scss/_images";
@@ -58,13 +58,13 @@
 // @import "bootstrap/scss/_tables";
 // @import "bootstrap/scss/_forms";
 // @import "bootstrap/scss/_buttons";
-// @import "bootstrap/scss/_transitions";
+@import "bootstrap/scss/_transitions";
 // @import "bootstrap/scss/_dropdown";
 // @import "bootstrap/scss/_button-group";
 // @import "bootstrap/scss/_input-group";
 // @import "bootstrap/scss/_custom-forms";
-// @import "bootstrap/scss/_nav";
-// @import "bootstrap/scss/_navbar";
+@import "bootstrap/scss/_nav";
+@import "bootstrap/scss/_navbar";
 // @import "bootstrap/scss/_card";
 // @import "bootstrap/scss/_breadcrumb";
 // @import "bootstrap/scss/_pagination";
@@ -85,4 +85,4 @@
 
 /* Load custom styles */
 // @import "./gw-gallery";
-// @import "./custom-style";
+@import "./custom-style";
