@@ -100,3 +100,6 @@ data/
 
 # Cache contents
 cache/
+
+# Visual Studio Code workspace file
+*.code-workspace
