@@ -1,18 +1,52 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Phalcon PHP Framework</title>
-        <link rel="stylesheet" href="{{ url('http://localhost:8081/css/frontend.css') }}"/>
-        <link rel="shortcut icon" type="image/x-icon" href="{{ url('img/favicon.ico') }}"/>
-    </head>
-    <body>
-        <div class="container">
-            {{ content() }}
-        </div>
-        <script src="{{ url('http://localhost:8081/js/frontend.js') }}"></script>
-    </body>
+
+<html lang="nl">
+<head>
+
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>{% if title is defined%}{{ title }} | {% endif %}Naut de Jong</title>
+
+<meta name="description" content="{{ description }}"/>
+<meta name="keywords" content="Naut de Jong,Heemskerk,webdeveloper,webdev,developer,HTML,CSS,Bootstrap{% if keywords is defined %},{{ keywords }}{% endif %}"/>
+<meta name="author" content="Naut de Jong"/>
+
+<link rel="stylesheet" type="text/css" href="{{ url('http://nautdejong.local.betaserver.nl:8081/css/frontend.css') }}"/>
+<link rel="shortcut icon" type="image/x-icon" href="{{ url('img/favicon.ico') }}"/>
+
+</head>
+<body>
+
+<header>
+
+<nav class="navbar navbar-expand-sm navbar-light">
+    <div class="navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Voorpagina</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/portfolio/">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact/">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</header>
+<main>
+
+{{ content() }}
+
+</main>
+
+<script type="text/javascript" src="{{ url('http://nautdejong.local.betaserver.nl:8081/js/frontend.js') }}"></script>
+<script type="text/javascript" src="{{ url('http://nautdejong.local.betaserver.nl:8081/js/vendor.frontend.js') }}"></script>
+<script type="text/javascript" src="{{ url('http://nautdejong.local.betaserver.nl:8081/js/main.frontend.js') }}"></script>
+
+</body>
 </html>
