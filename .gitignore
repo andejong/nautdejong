@@ -99,7 +99,10 @@ fabric.properties
 data/
 
 # Cache contents
-cache/
+cache/*
 
 # Visual Studio Code workspace file
 *.code-workspace
+
+# Keep .gitkeep files
+!.gitkeep
