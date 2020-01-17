@@ -19,10 +19,10 @@ import 'bootstrap/js/src/util';
 // import 'bootstrap/js/src/scrollspy';
 // import 'bootstrap/js/src/tab';
 // import 'bootstrap/js/src/toast';
-// import 'bootstrap/js/src/tooltip';
+import 'bootstrap/js/src/tooltip';
 
 /* Load custom scripts */
-// import './custom-script';
+import './custom-script';
 
 /* Load styles */
 import '../scss/index.scss';

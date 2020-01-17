@@ -10,8 +10,15 @@ button:focus,.btn:focus {
 	-webkit-appearance:	none;
 }
 
-dd {
-	margin-bottom:	0;
+.table {
+	th {
+		text-align:		right;
+		vertical-align:	middle;
+	}
+
+	td {
+		vertical-align:	middle;
+	}
 }
 
 /* Layout */
@@ -24,11 +31,6 @@ body {
 	main {
 		flex-grow:	1;
 	}
-}
-
-.align-content > .col {
-	display:		flex;
-	align-items:	center;
 }
 
 /* Navigation */
@@ -74,16 +76,9 @@ body {
 	}
 }
 
-/* Contact */
-.contact {
-	max-width:	var(--breakpoint-sm);
-	font-size:	$font-size-lg;
-}
-
 /* Anti-bot */
-.Im-sorry-HAL:before {
+bdo:before {
 	content:		attr(data-insert);
 	unicode-bidi:	inherit;
 	direction:		rtl;
-	white-space:	nowrap;
 }

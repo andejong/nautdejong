@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 class IndexController extends ControllerBase
@@ -10,7 +11,7 @@ class IndexController extends ControllerBase
     public function overAction() {
         $this->view->title          = "Over";
         $this->view->description    = "Over Naut de Jong";
-        $this->view->keywords       = "over";
+        $this->view->keywords       = "about,over";
     }
 
     public function portfolioAction() {
