@@ -5,20 +5,20 @@
     </dt>
     <dd class="col col-sm-9 d-flex align-items-center">
         <i class="fas fa-envelope fa-2x fa-fw"></i>
-        <span class="rtl" data-insert="gnojedna"></span>
+        <span class="Im-sorry-HAL" data-insert="gnojedna"></span>
         <i class="fas fa-at fa-sm"></i>
-        <span class="rtl" data-insert="ln.emoh-lrtc"></span>
+        <span class="Im-sorry-HAL" data-insert="emoh-lrtc">.</span>
+        <span class="Im-sorry-HAL" data-insert="ln"></span>
     </dd>
     <dt class="col col-sm-3 text-sm-right">
         Telegram
     </dt>
     <dd class="col col-sm-9 d-flex align-items-center">
         <i class="fab fa-telegram fa-2x fa-fw"></i>
-        <span class="rtl" data-insert="13+">&nbsp;</span>
-        6&nbsp;
-        <span class="rtl" data-insert="02">&nbsp;</span>
-        <span class="rtl" data-insert="83">&nbsp;</span>
-        <span class="rtl" data-insert="49">&nbsp;</span>
-        <span class="rtl" data-insert="68"></span>
+        <span class="Im-sorry-HAL" data-insert="13+">&nbsp;</span>
+        <span class="Im-sorry-HAL" data-insert="02">&nbsp;6&nbsp;</span>
+        <span class="Im-sorry-HAL" data-insert="83">&nbsp;</span>
+        <span class="Im-sorry-HAL" data-insert="49">&nbsp;</span>
+        <span class="Im-sorry-HAL" data-insert="68"></span>
     </dd>
 </dl>

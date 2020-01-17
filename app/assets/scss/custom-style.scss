@@ -10,12 +10,13 @@ button:focus,.btn:focus {
 	-webkit-appearance:	none;
 }
 
-.rtl:before {
+dd {
+	margin-bottom:	0;
+}
+
+/* Anti-bot */
+.Im-sorry-HAL:before {
 	content:		attr(data-insert);
 	unicode-bidi:	bidi-override;
 	direction:		rtl;
-}
-
-dd {
-	margin-bottom:	0;
 }
