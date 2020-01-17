@@ -15,7 +15,7 @@ class IndexController extends ControllerBase
 
     public function contactAction() {
         $this->view->title          = "Contact";
-        $this->view->description    = "Contacteer Naut de Jong";
+        $this->view->description    = "Neem contact op met Naut de Jong";
         $this->view->keywords       = "contact";
     }
 }

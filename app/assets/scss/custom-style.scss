@@ -14,9 +14,38 @@ dd {
 	margin-bottom:	0;
 }
 
+/* Layout */
+body {
+	display:			flex;
+	flex-direction:		column;
+	justify-content:	space-between;
+	min-height:			100vh;
+
+	main {
+		flex-grow:	1;
+	}
+}
+
+.align-content > .col {
+	display:		flex;
+	align-items:	center;
+}
+
+
 /* Anti-bot */
 .Im-sorry-HAL:before {
 	content:		attr(data-insert);
 	unicode-bidi:	bidi-override;
 	direction:		rtl;
+	white-space:	nowrap;
+}
+
+.fa-colourize {
+	.fa-telegram {
+		color:	#0088cc;
+	}
+
+	.fa-github {
+		color: #333333;
+	}
 }

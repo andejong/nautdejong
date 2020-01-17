@@ -9,6 +9,43 @@ $fa-font-path:  "~@fortawesome/fontawesome-free/webfonts";
  * Path: /node_modules/bootstrap/scss/_variables.scss
  */
 
+/* Options */
+$enable-gradients:  true;
+
+/* Color system */
+$blue_dark:                     #140494;
+$grey_very-light:               #ececec;
+$grey_very-light-mostly-white:  #f6f6f6;
+$grey_very-dark:                #3b3b3b;
+$grey_very-dark-mostly-black:   #141414;
+
+$primary:   $blue_dark;
+$light:     $grey_very-light;
+$dark:      $grey_very-dark;
+
+$theme-colors: (
+    "blue_dark":                    $blue_dark,
+    "grey_very-light":              $grey_very-light,
+    "grey_very-light-mostly-white": $grey_very-light-mostly-white,
+    "grey_very-dark":               $grey_very-dark,
+    "grey_very-dark-mostly-black":  $grey_very-dark-mostly-black,
+    "primary":                      $primary,
+    "light":                        $light,
+    "dark":                         $dark
+);
+
 /* Spacing */
 $spacer:            1rem;
 $grid-gutter-width: $spacer * 2;
+
+/* Body */
+$body-bg:       $grey_very-light-mostly-white;
+$body-color:    $grey_very-dark-mostly-black;
+
+/* Links */
+$link-color:                                $primary;
+$emphasized-link-hover-darken-percentage:   10%;
+$link-hover-color:                          darken($link-color, $emphasized-link-hover-darken-percentage);
+
+/* Borders */
+$border-color:  $grey_very-light-mostly-white;
