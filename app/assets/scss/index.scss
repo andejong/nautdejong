@@ -1,10 +1,10 @@
 /* Load custom variables */
 @import "./custom-variables";
 
-/*!
+/**
  * Load Font Awesome
  * Path: /node_modules/@fortawesome/@fontawesome-free/
-!*/
+ */
 // @import "@fortawesome/fontawesome-free";
 
 /* Import this file to translate v4 to v5 */
@@ -18,8 +18,8 @@
 @import "@fortawesome/fontawesome-free/scss/_icons";
 
 /* Optional */
-// @import "@fortawesome/fontawesome-free/scss/_larger";
-// @import "@fortawesome/fontawesome-free/scss/_fixed-width";
+@import "@fortawesome/fontawesome-free/scss/_larger";
+@import "@fortawesome/fontawesome-free/scss/_fixed-width";
 // @import "@fortawesome/fontawesome-free/scss/_list";
 // @import "@fortawesome/fontawesome-free/scss/_bordered-pulled";
 // @import "@fortawesome/fontawesome-free/scss/_animated";
@@ -29,16 +29,14 @@
 
 /* Requires at least one */
 /* Enable "fab" */
-// @import "@fortawesome/fontawesome-free/scss/brands";
+@import "@fortawesome/fontawesome-free/scss/brands";
 /* Enable "fas" */
 @import "@fortawesome/fontawesome-free/scss/solid";
-/* Enable "far" */
-// @import "@fortawesome/fontawesome-free/scss/regular";
 
-/*!
+/**
  * Load Bootstrap
  * Path: /node_modules/bootstrap/dist/css/
-!*/
+ */
 // @import "bootstrap";
 
 /* Modular import */

@@ -1,7 +1,7 @@
-/*!
+/**
  * Load Bootstrap
  * Path: /node_modules/bootstrap/dist/js/
-!*/
+ */
 // import 'bootstrap';
 
 /* Modular import */

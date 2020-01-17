@@ -15,14 +15,14 @@ const config = {
     entry: './app/assets/js/index.js',
     output: {
         filename: 'js/frontend.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'dist')
     },
     module: {
         rules: [
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loader: 'babel-loader',
+                loader: 'babel-loader'
             },
             {
                 test: /\.scss$/,
@@ -31,14 +31,14 @@ const config = {
                     {
                         loader: MiniCssExtractPlugin.loader,
                         options: {
-                            hmr: IS_DEV,
-                        },
+                            hmr: IS_DEV
+                        }
                     },
                     {
                         loader: 'css-loader',
                     },
-                    'sass-loader',
-                ],
+                    'sass-loader'
+                ]
             },
             {
                 test: /\.(woff|woff2|eot|ttf|svg)(\?.*$|$)?/,
@@ -50,43 +50,43 @@ const config = {
                             limit: 8192,
                             name: '[name]-[hash].[ext]',
                             publicPath: 'font/',
-                            outputPath: 'font/',
-                        },
-                    },
-                ],
-            },
-        ],
+                            outputPath: 'font/'
+                        }
+                    }
+                ]
+            }
+        ]
     },
     plugins: [
         new CleanWebpackPlugin({
-            minify: !IS_DEV,
+            minify: !IS_DEV
         }),
         new HtmlWebPackPlugin(),
         new ManifestPlugin(),
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery',
-            'windows.jQuery': 'jquery',
+            'windows.jQuery': 'jquery'
         }),
         new MiniCssExtractPlugin({
             filename: IS_DEV ? 'css/frontend.css' : 'css/frontend.[contenthash].css',
-            chunkFilename: 'css/frontend.css',
+            chunkFilename: 'css/frontend.css'
         }),
         new webpack.HashedModuleIdsPlugin(),
         new PreloadWebpackPlugin({
-            include: 'initial',
+            include: 'initial'
         }),
-        new CssUrlRelativePlugin(),
+        new CssUrlRelativePlugin()
     ],
     devServer: {
         contentBase: path.join(__dirname, 'public_html'),
         disableHostCheck: true,
         headers: {
             'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Headers': '*',
+            'Access-Control-Allow-Headers': '*'
         },
         port: 8081,
-        host: '0.0.0.0',
+        host: '0.0.0.0'
     },
     optimization: {
         runtimeChunk: 'single',
@@ -97,12 +97,12 @@ const config = {
                     chunks: 'initial',
                     name: 'vendor',
                     priority: 10,
-                    enforce: true,
-                },
-            },
+                    enforce: true
+                }
+            }
         },
-        minimizer: [],
-    },
+        minimizer: []
+    }
 };
 
 if (!IS_DEV) {
