@@ -31,21 +31,59 @@ body {
 	align-items:	center;
 }
 
+/* Navigation */
+.navbar {
+	.nav-link {
+		margin:			$spacer * .25;
+		padding-right:	$navbar-nav-link-padding-x;
+		padding-left:	$navbar-nav-link-padding-x;
+	}
+
+	&.navbar-dark .nav-link {
+		border-width:	$border-width;
+		border-style:	solid;
+		border-color:	transparent;
+		transition:		$btn-transition;
+
+		&:hover {
+			border-color:	$primary;
+		}
+
+		&.active {
+			border-color:	$navbar-dark-toggler-border-color;
+		}
+	}
+}
+
+/* Font Awesome colourized */
+.fa-colourize .fa {
+	&-envelope-square {
+		color:	color("yellow")
+	}
+
+	&-phone-square-alt {
+		color:	color("green");
+	}
+
+	&-telegram {
+		color:	#0088cc;
+	}
+
+	&-github {
+		color: #333333;
+	}
+}
+
+/* Contact */
+.contact {
+	max-width:	var(--breakpoint-sm);
+	font-size:	$font-size-lg;
+}
 
 /* Anti-bot */
 .Im-sorry-HAL:before {
 	content:		attr(data-insert);
-	unicode-bidi:	bidi-override;
+	unicode-bidi:	inherit;
 	direction:		rtl;
 	white-space:	nowrap;
-}
-
-.fa-colourize {
-	.fa-telegram {
-		color:	#0088cc;
-	}
-
-	.fa-github {
-		color: #333333;
-	}
 }

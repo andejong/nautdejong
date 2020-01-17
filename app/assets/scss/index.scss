@@ -30,6 +30,8 @@
 /* Requires at least one */
 /* Enable "fab" */
 @import "@fortawesome/fontawesome-free/scss/brands";
+/* Enable "far" */
+@import "@fortawesome/fontawesome-free/scss/regular";
 /* Enable "fas" */
 @import "@fortawesome/fontawesome-free/scss/solid";
 
@@ -55,7 +57,7 @@
 // @import "bootstrap/scss/_code";
 // @import "bootstrap/scss/_tables";
 // @import "bootstrap/scss/_forms";
-// @import "bootstrap/scss/_buttons";
+@import "bootstrap/scss/_buttons";
 // @import "bootstrap/scss/_transitions";
 // @import "bootstrap/scss/_dropdown";
 // @import "bootstrap/scss/_button-group";
@@ -67,7 +69,7 @@
 // @import "bootstrap/scss/_breadcrumb";
 // @import "bootstrap/scss/_pagination";
 // @import "bootstrap/scss/_badge";
-// @import "bootstrap/scss/_jumbotron";
+@import "bootstrap/scss/_jumbotron";
 // @import "bootstrap/scss/_alert";
 // @import "bootstrap/scss/_progress";
 // @import "bootstrap/scss/_media";

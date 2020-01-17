@@ -7,6 +7,12 @@ class IndexController extends ControllerBase
         $this->view->description    = "Website van Naut de Jong";
     }
 
+    public function overAction() {
+        $this->view->title          = "Over";
+        $this->view->description    = "Over Naut de Jong";
+        $this->view->keywords       = "over";
+    }
+
     public function portfolioAction() {
         $this->view->title          = "Portfolio";
         $this->view->description    = "Portfolio van Naut de Jong";

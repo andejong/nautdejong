@@ -19,40 +19,57 @@
 </head>
 <body>
 
-<header>
+<header class="border border-primary shadow-lg bg-gradient-primary">
 
-<nav class="navbar navbar-expand-sm navbar-dark border border-primary bg-gradient-primary">
+<nav class="navbar navbar-expand-sm navbar-dark">
     <div class="navbar-collapse">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav nav-pills mx-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/">Voorpagina</a>
+                <a class="nav-link{% if request.getUri() is '/' %} active{% endif %}" href="/">Voorpagina</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/portfolio/">Portfolio</a>
+                <a class="nav-link{% if request.getUri() is '/over/' %} active{% endif %}" href="/over/">Over</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/contact/">Contact</a>
+                <a class="nav-link{% if request.getUri() is '/portfolio/' %} active{% endif %}" href="/portfolio/">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link{% if request.getUri() is '/contact/' %} active{% endif %}" href="/contact/">Contact</a>
             </li>
         </ul>
     </div>
 </nav>
 
 </header>
-<main class="border">
+<main class="container my-4">
 
 {{ content() }}
 
 </main>
-<footer class="border border-dark bg-gradient-dark text-light">
+<footer class="d-flex flex-column flex-sm-row align-items-center justify-content-between border border-dark bg-gradient-dark text-center text-light">
 
-<i class="fab fa-html5 fa-fw"></i>
-<i class="fab fa-css3 fa-fw"></i>
-<i class="fab fa-sass fa-fw"></i>
-<i class="fab fa-docker fa-fw"></i>
-<i class="fab fa-bootstrap fa-fw"></i>
-<i class="fab fa-font-awesome fa-fw"></i>
-<i class="fab fa-github fa-fw"></i>
-<i class="fab fa-linux fa-fw"></i>
+<small class="order-sm-last">
+    2020
+    <i class="far fa-copyright fa-sm"></i>
+    Naut de Jong
+    <i class="fas fa-grip-lines-vertical fa-sm"></i>
+    Hosting
+    <i class="fas fa-server fa-sm"></i>
+    <a href="https://www.gorteradvisie.nl/" target="_blank" class="text-white">
+        Gorter Advisie
+        <i class="fas fa-external-link-alt fa-sm"></i>
+    </a>
+</small>
+<div>
+    <i class="fab fa-html5 fa-fw"></i>
+    <i class="fab fa-css3 fa-fw"></i>
+    <i class="fab fa-sass fa-fw"></i>
+    <i class="fab fa-docker fa-fw"></i>
+    <i class="fab fa-bootstrap fa-fw"></i>
+    <i class="fab fa-font-awesome fa-fw"></i>
+    <i class="fab fa-github fa-fw"></i>
+    <i class="fab fa-linux fa-fw"></i>
+</div>
 
 </footer>
 

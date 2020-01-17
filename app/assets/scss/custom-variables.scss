@@ -19,24 +19,31 @@ $grey_very-light-mostly-white:  #f6f6f6;
 $grey_very-dark:                #3b3b3b;
 $grey_very-dark-mostly-black:   #141414;
 
+$colors: (
+    "blue_dark":                    $blue_dark,
+    "grey_very-light":              $grey_very-light,
+    "grey_very-light-mostly-white": $grey_very-light-mostly-white,
+    "grey_very-dark":               $grey_very-dark,
+    "grey_very-dark-mostly-black":  $grey_very-dark-mostly-black
+);
+
 $primary:   $blue_dark;
 $light:     $grey_very-light;
 $dark:      $grey_very-dark;
 
 $theme-colors: (
-    "blue_dark":                    $blue_dark,
-    "grey_very-light":              $grey_very-light,
-    "grey_very-light-mostly-white": $grey_very-light-mostly-white,
-    "grey_very-dark":               $grey_very-dark,
-    "grey_very-dark-mostly-black":  $grey_very-dark-mostly-black,
-    "primary":                      $primary,
-    "light":                        $light,
-    "dark":                         $dark
+    "primary":  $primary,
+    "light":    $light,
+    "dark":     $dark
 );
 
 /* Spacing */
 $spacer:            1rem;
 $grid-gutter-width: $spacer * 2;
+
+/* Typography */
+$font-size-base:    1rem;
+$font-size-lg:      $font-size-base * 1.125;
 
 /* Body */
 $body-bg:       $grey_very-light-mostly-white;
@@ -47,5 +54,18 @@ $link-color:                                $primary;
 $emphasized-link-hover-darken-percentage:   10%;
 $link-hover-color:                          darken($link-color, $emphasized-link-hover-darken-percentage);
 
+/* Buttons */
+$btn-padding-x: $spacer;
+
 /* Borders */
-$border-color:  $grey_very-light-mostly-white;
+$border-color:      $grey_very-light-mostly-white;
+$border-radius:     .2rem;
+$border-radius-sm:  .1rem;
+
+/* Navigation */
+$navbar-padding-y:          $spacer * .125;
+$navbar-padding-x:          $spacer * .5;
+$navbar-nav-link-padding-x: $btn-padding-x;
+
+/* Jumbotron */
+$jumbotron-bg:  $light;
