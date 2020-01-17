@@ -9,5 +9,5 @@ FROM mileschou/phalcon:fpm-alpine
 # ENV DB_PASS="secret"
 ENV APPLICATION_ENV="development"
 RUN docker-phalcon-install-devtools
-RUN apk --update add alpine-sdk autoconf automake gawk gcc git libpng-dev libtool make nodejs-npm zlib
+RUN apk --update add alpine-sdk autoconf automake gawk gcc git libpng-dev libtool make nodejs-npm python python2 zlib
 WORKDIR /var/www
