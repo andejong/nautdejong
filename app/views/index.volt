@@ -25,16 +25,16 @@
     <div class="navbar-collapse">
         <ul class="navbar-nav nav-pills mx-auto">
             <li class="nav-item">
-                <a class="nav-link{% if request.getUri() is '/' %} active{% endif %}" href="/">Voorpagina</a>
+                <a href="/" class="nav-link{% if request.getUri() is '/' %} active{% endif %}">Voorpagina</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link{% if request.getUri() is '/over/' %} active{% endif %}" href="/over/">Over</a>
+                <a href="/over/" class="nav-link{% if request.getUri() is '/over/' %} active{% endif %}">Over</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link{% if request.getUri() is '/portfolio/' %} active{% endif %}" href="/portfolio/">Portfolio</a>
+                <a href="/portfolio/" class="nav-link{% if request.getUri() is '/portfolio/' %} active{% endif %}">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link{% if request.getUri() is '/contact/' %} active{% endif %}" href="/contact/">Contact</a>
+                <a href="/contact/" class="nav-link{% if request.getUri() is '/contact/' %} active{% endif %}">Contact</a>
             </li>
         </ul>
     </div>
@@ -49,16 +49,15 @@
 <footer class="d-flex flex-column flex-sm-row align-items-center justify-content-between border border-dark bg-gradient-dark text-center text-light">
 
 <small class="order-sm-last">
-    2020
-    <i class="far fa-copyright fa-sm"></i>
-    Naut de Jong
-    <i class="fas fa-grip-lines-vertical fa-sm"></i>
-    Hosting
-    <i class="fas fa-server fa-sm"></i>
-    <a href="https://www.gorteradvisie.nl/" target="_blank" class="text-white">
+    Hosting:
+    <a href="https://www.gorteradvisie.nl/" target="_blank" class="text-light">
         Gorter Advisie
         <i class="fas fa-external-link-alt fa-sm"></i>
     </a>
+    <i class="fas fa-grip-lines-vertical fa-sm"></i>
+    2020
+    <i class="far fa-copyright fa-sm"></i>
+    Naut de Jong    
 </small>
 <div>
     <i class="fab fa-html5 fa-fw"></i>

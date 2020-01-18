@@ -1,18 +1,22 @@
+{% set message  = "Wegens spambots zijn deze gegevens beveiligd, u dit niet selecteren!" %}
+
 <h1>Contact</h1>
 <table class="table table-sm table-responsive table-borderless fa-colourize">
     <tbody>
         <tr>
-            <th scope="row">E-mail</th>
+            <th scope="row">E-mailadres</th>
             <td>
                 <i class="fas fa-envelope-square fa-2x fa-fw"></i>
             </td>
             <td class="w-100">
-                {# Remove whitespace from DOM. #}
-                <!-- It ain't pretty but it works...
-                --><bdo data-insert="gnojedna"></bdo><!--
-                --><i class="fas fa-at fa-sm"></i><!--
-                --><bdo data-insert="emoh-lrtc">.</bdo><!--
-                --><bdo data-insert="ln"></bdo>
+                <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
+                    {# Remove whitespace from DOM. #}
+                    <!-- It ain't pretty but it works...
+                    --><bdo data-insert="gnojedna"></bdo><!--
+                    --><i class="fas fa-at fa-sm"></i><!--
+                    --><bdo data-insert="emoh-lrtc">.</bdo><!--
+                    --><bdo data-insert="ln"></bdo>
+                </span>
             </td>
         </tr>
         <tr>
@@ -20,12 +24,14 @@
             <td>
                 <i class="fas fa-phone-square-alt fa-2x fa-fw"></i>
             </td>
-            <td data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-                <bdo data-insert="1300"></bdo>
-                <bdo data-insert="02">&nbsp;6</bdo>
-                <bdo data-insert="83"></bdo>
-                <bdo data-insert="49"></bdo>
-                <bdo data-insert="68"></bdo>
+            <td>
+                <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
+                    <bdo data-insert="13+"></bdo>
+                    <bdo data-insert="02">&nbsp;6</bdo>
+                    <bdo data-insert="83"></bdo>
+                    <bdo data-insert="49"></bdo>
+                    <bdo data-insert="68"></bdo>
+                </span>
             </td>
         </tr>
         <tr>
@@ -34,11 +40,13 @@
                 <i class="fab fa-telegram fa-2x fa-fw"></i>
             </td>
             <td>
-                <bdo data-insert="1300"></bdo>
-                <bdo data-insert="02">&nbsp;6</bdo>
-                <bdo data-insert="83"></bdo>
-                <bdo data-insert="49"></bdo>
-                <bdo data-insert="68"></bdo>
+                <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
+                    <bdo data-insert="13+"></bdo>
+                    <bdo data-insert="02">&nbsp;6</bdo>
+                    <bdo data-insert="83"></bdo>
+                    <bdo data-insert="49"></bdo>
+                    <bdo data-insert="68"></bdo>
+                </span>
             </td>
         </tr>
         <tr>
