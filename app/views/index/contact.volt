@@ -10,12 +10,11 @@
             </td>
             <td class="w-100">
                 <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
-                    {# Remove whitespace from DOM. #}
-                    <!-- It ain't pretty but it works...
-                    --><bdo data-insert="gnojedna"></bdo><!--
-                    --><i class="fas fa-at fa-sm"></i><!--
-                    --><bdo data-insert="emoh-lrtc">.</bdo><!--
-                    --><bdo data-insert="ln"></bdo>
+                    <!-- Removes whitespace from DOM.           #
+                    #--><bdo data-insert="gnojedna"></bdo><!--  #
+                    #--><i class="fas fa-at fa-sm"></i><!--     #
+                    #--><bdo data-insert="emoh-lrtc">.</bdo><!--#
+                    #--><bdo data-insert="ln"></bdo>
                 </span>
             </td>
         </tr>
