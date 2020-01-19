@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 
-<html lang="nl">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl">
 <head>
 
-<meta charset="utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
 <title>{% if title is defined%}{{ title }} | {% endif %}Naut de Jong</title>
 
-<meta name="description" content="{{ description }}"/>
-<meta name="keywords" content="Naut de Jong,Heemskerk,webdeveloper,webdev,developer,HTML,CSS,Bootstrap{% if keywords is defined %},{{ keywords }}{% endif %}"/>
-<meta name="author" content="Naut de Jong"/>
+<meta name="description" content="{{ description }}" />
+<meta name="keywords" content="Naut de Jong, Heemskerk, webdeveloper, webdev, developer, HTML, CSS, Bootstrap{% if keywords is defined %}, {{ keywords }}{% endif %}" />
+<meta name="author" content="Naut de Jong" />
 
-<link rel="stylesheet" type="text/css" href="{{ url('http://nautdejong.local.betaserver.nl:8081/css/frontend.css') }}"/>
-<link rel="shortcut icon" type="image/x-icon" href="{{ url('img/favicon.ico') }}"/>
+{{ assets.outputCss('header') }}
+
+<link rel="shortcut icon" type="image/x-icon" href="{{ url('img/favicon.ico') }}" />
 
 </head>
 <body>
@@ -51,9 +52,10 @@
 <small class="order-sm-last">
     Hosting:
     <a href="https://www.gorteradvisie.nl/" target="_blank" class="text-light">
-        Gorter Advisie
-        <i class="fas fa-external-link-alt fa-sm"></i>
-    </a>
+        Gorter Advisie<!-- Removes whitespace from DOM.            #
+        #--><i class="fas fa-external-link-alt fa-sm ml-1"></i><!--#
+    #--></a>
+    
     <i class="fas fa-grip-lines-vertical fa-sm"></i>
     2020
     <i class="far fa-copyright fa-sm"></i>
@@ -72,9 +74,7 @@
 
 </footer>
 
-<script type="text/javascript" src="{{ url('http://nautdejong.local.betaserver.nl:8081/js/frontend.js') }}"></script>
-<script type="text/javascript" src="{{ url('http://nautdejong.local.betaserver.nl:8081/js/vendor.frontend.js') }}"></script>
-<script type="text/javascript" src="{{ url('http://nautdejong.local.betaserver.nl:8081/js/main.frontend.js') }}"></script>
+{{ assets.outputJs('footer') }}
 
 </body>
 </html>
