@@ -11,7 +11,7 @@ class IndexController extends ControllerBase
     public function overAction() {
         $this->view->title          = "Over";
         $this->view->description    = "Over Naut de Jong";
-        $this->view->keywords       = "about,over";
+        $this->view->keywords       = "about, over";
     }
 
     public function portfolioAction() {
