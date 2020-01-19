@@ -24,9 +24,11 @@
 
 <nav class="navbar navbar-expand-sm navbar-dark">
     <div class="navbar-collapse">
-        <ul class="navbar-nav nav-pills mx-auto">
-            <li class="nav-item">
-                <a href="/" class="nav-link{% if request.getUri() is '/' %} active{% endif %}">Voorpagina</a>
+        <ul class="navbar-nav w-100">
+            <li class="nav-item mr-sm-auto">
+                <a href="/" class="nav-link{% if request.getUri() is '/' %} active{% endif %}">
+                    <i class="fas fa-home"></i>
+                </a>
             </li>
             <li class="nav-item">
                 <a href="/over/" class="nav-link{% if request.getUri() is '/over/' %} active{% endif %}">Over</a>
@@ -42,7 +44,7 @@
 </nav>
 
 </header>
-<main class="container my-4">
+<main class="container my-5">
 
 {{ content() }}
 
@@ -52,9 +54,9 @@
 <small class="order-sm-last">
     Hosting:
     <a href="https://www.gorteradvisie.nl/" target="_blank" class="text-light">
-        Gorter Advisie<!-- Removes whitespace from DOM.            #
-        #--><i class="fas fa-external-link-alt fa-sm ml-1"></i><!--#
-    #--></a>
+        Gorter Advisie{#
+        #}<i class="fas fa-external-link-alt fa-sm ml-1"></i>{#
+    #}</a>
     
     <i class="fas fa-grip-lines-vertical fa-sm"></i>
     2020

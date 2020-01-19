@@ -1,4 +1,4 @@
-{% set message  = "Wegens spambots zijn deze gegevens beveiligd, u dit niet selecteren!" %}
+{% set message  = "Wegens spambots zijn deze gegevens beveiligd, u kunt dit niet selecteren!" %}
 
 <h1>Contact</h1>
 <table class="table table-sm table-responsive table-borderless fa-colourize">
@@ -10,11 +10,10 @@
             </td>
             <td class="w-100">
                 <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
-                    <!-- Removes whitespace from DOM.           #
-                    #--><bdo data-insert="gnojedna"></bdo><!--  #
-                    #--><i class="fas fa-at fa-sm"></i><!--     #
-                    #--><bdo data-insert="emoh-lrtc">.</bdo><!--#
-                    #--><bdo data-insert="ln"></bdo>
+                    <bdo data-insert="gnojedna"></bdo>{#
+                    #}<i class="fas fa-at fa-sm"></i>{#
+                    #}<bdo data-insert="emoh-lrtc">.</bdo>{#
+                    #}<bdo data-insert="ln"></bdo>
                 </span>
             </td>
         </tr>
@@ -25,7 +24,8 @@
             </td>
             <td>
                 <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
-                    <bdo data-insert="13+"></bdo>
+                    <i class="fas fa-plus fa-sm"></i>{#
+                    #}<bdo data-insert="13"></bdo>
                     <bdo data-insert="02">&nbsp;6</bdo>
                     <bdo data-insert="83"></bdo>
                     <bdo data-insert="49"></bdo>
@@ -40,7 +40,8 @@
             </td>
             <td>
                 <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
-                    <bdo data-insert="13+"></bdo>
+                    <i class="fas fa-plus fa-sm"></i>{#
+                    #}<bdo data-insert="13"></bdo>
                     <bdo data-insert="02">&nbsp;6</bdo>
                     <bdo data-insert="83"></bdo>
                     <bdo data-insert="49"></bdo>
@@ -55,9 +56,9 @@
             </td>
             <td>
                 <a href="https://github.com/andejong/" target="_blank" class="btn btn-outline-primary">
-                    andejong
-                    <i class="fas fa-external-link-alt fa-sm"></i>
-                </a>
+                    andejong{#
+                    #}<i class="fas fa-external-link-alt fa-sm ml-1"></i>{#
+                #}</a>
             </td>
         </tr>
     </tbody>

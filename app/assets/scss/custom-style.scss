@@ -35,24 +35,45 @@ body {
 
 /* Navigation */
 .navbar {
-	.nav-link {
-		margin:			$spacer * .25;
+	&-nav .nav-link {
 		padding-right:	$navbar-nav-link-padding-x;
 		padding-left:	$navbar-nav-link-padding-x;
 	}
 
-	&.navbar-dark .nav-link {
-		border-width:	$border-width;
+	&-expand-sm {
+		@include media-breakpoint-only(xs) {
+			padding-top:	1.75 * ($nav-link-padding-y / 3);
+			padding-bottom:	1.75 * ($nav-link-padding-y / 3);
+
+			.nav-link {
+				margin-top:		.25 * ($nav-link-padding-y / 3);
+				margin-bottom:	.25 * ($nav-link-padding-y / 3);
+				padding-top:	$nav-link-padding-y / 3;
+				padding-bottom:	$nav-link-padding-y / 3;
+			}
+		}
+	}
+
+	&-dark .nav-link {
+		border-width:	$btn-border-width;
 		border-style:	solid;
 		border-color:	transparent;
 		transition:		$btn-transition;
-
-		&:hover {
-			border-color:	$primary;
-		}
+		border-radius:	$border-radius-sm;
 
 		&.active {
-			border-color:	$navbar-dark-toggler-border-color;
+			border-color:		rgba(white, .1);
+			background-color:	rgba(white, .1);
+		}
+
+		&:hover {
+			border-color:		rgba(white, .1);
+			background-color:	rgba(white, .2);
+		}
+
+		&:focus {
+			background-color:	rgba(white, .3);
+			color:				rgba(white, .9);
 		}
 	}
 }
