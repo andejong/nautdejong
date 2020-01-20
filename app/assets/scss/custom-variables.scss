@@ -13,23 +13,22 @@ $fa-font-path:  "~@fortawesome/fontawesome-free/webfonts";
 $enable-gradients:  true;
 
 /* Color system */
-$blue_dark:                     #140494;
-$grey_very-light:               #ececec;
-$grey_very-light-mostly-white:  #f6f6f6;
-$grey_very-dark:                #3b3b3b;
-$grey_very-dark-mostly-black:   #141414;
+$blue_very-pale:    #fbfaff;
+$blue_dark:         #140494;
+$blue_very-dark:    #02000e;
+$red_bright:        #f93f28;
 
 $colors: (
-    "blue_dark":                    $blue_dark,
-    "grey_very-light":              $grey_very-light,
-    "grey_very-light-mostly-white": $grey_very-light-mostly-white,
-    "grey_very-dark":               $grey_very-dark,
-    "grey_very-dark-mostly-black":  $grey_very-dark-mostly-black
+    "blue_very-pale":   $blue_very-pale,
+    "blue_dark":        $blue_dark,
+    "blue_very-dark":   $blue_very-dark,
+    "red_bright":       $red_bright
 );
 
 $primary:   $blue_dark;
-$light:     $grey_very-light;
-$dark:      $grey_very-dark;
+$danger:    $red_bright;
+$light:     $blue_very-pale;
+$dark:      $blue_very-dark;
 
 $theme-colors: (
     "primary":  $primary,
@@ -41,13 +40,19 @@ $theme-colors: (
 $spacer:            1rem;
 $grid-gutter-width: $spacer * 2;
 
+$spacers: (
+    4:  $spacer * 1.75,
+    5:  $spacer * 2.75,
+    6:  $spacer * 4
+);
+
+/* Body */
+$body-bg:       #eae7fe;
+$body-color:    #050121;
+
 /* Typography */
 $font-size-base:    1rem;
 $font-size-lg:      $font-size-base * 1.125;
-
-/* Body */
-$body-bg:       $grey_very-light-mostly-white;
-$body-color:    $grey_very-dark-mostly-black;
 
 /* Links */
 $link-color:                                $primary;
@@ -58,7 +63,7 @@ $link-hover-color:                          darken($link-color, $emphasized-link
 $btn-padding-x: $spacer;
 
 /* Borders */
-$border-color:      $grey_very-light-mostly-white;
+$border-color:      $light;
 $border-radius:     .2rem;
 $border-radius-sm:  .05rem;
 
@@ -68,9 +73,11 @@ $navbar-padding-y:          0;
 $nav-link-padding-x:        $navbar-padding-x;
 $nav-link-padding-y:        $navbar-padding-x * 2;
 $navbar-nav-link-padding-x: $nav-link-padding-x;
-$navbar-dark-color:         rgba(white, .7);
-$navbar-dark-hover-color:   rgba(white, .8);
+$navbar-dark-color:         transparentize(white, .3);
+$navbar-dark-hover-color:   transparentize(white, .2);
 $navbar-dark-active-color:  white;
 
-/* Jumbotron */
-$jumbotron-bg:  $light;
+/* Tooltips */
+$tooltip-bg:        $light;
+$tooltip-color:     $danger;
+$tooltip-opacity:   1;

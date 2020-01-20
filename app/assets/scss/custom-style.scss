@@ -21,6 +21,10 @@ button:focus,.btn:focus {
 	}
 }
 
+.large {
+	font-size:	$font-size-lg;
+}
+
 /* Layout */
 body {
 	display:			flex;
@@ -62,18 +66,18 @@ body {
 		border-radius:	$border-radius-sm;
 
 		&.active {
-			border-color:		rgba(white, .1);
-			background-color:	rgba(white, .1);
+			border-color:		transparentize(white, .9);
+			background-color:	transparentize(white, .9);
 		}
 
 		&:hover {
-			border-color:		rgba(white, .1);
-			background-color:	rgba(white, .2);
+			border-color:		transparentize(white, .9);
+			background-color:	transparentize(white, .8);
 		}
 
 		&:focus {
-			background-color:	rgba(white, .3);
-			color:				rgba(white, .9);
+			background-color:	transparentize(white, .7);
+			color:				white;
 		}
 	}
 }

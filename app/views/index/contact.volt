@@ -1,4 +1,4 @@
-{% set message  = "Wegens spambots zijn deze gegevens beveiligd, u kunt dit niet selecteren!" %}
+{% set message  = "Wegens spambots zijn deze gegevens beveiligd, en niet selecteerbaar!" %}
 
 <h1>Contact</h1>
 <table class="table table-sm table-responsive table-borderless fa-colourize">

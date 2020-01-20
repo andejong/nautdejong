@@ -44,7 +44,7 @@
 </nav>
 
 </header>
-<main class="container my-5">
+<main class="container my-6 large">
 
 {{ content() }}
 
@@ -53,7 +53,7 @@
 
 <small class="order-sm-last">
     Hosting:
-    <a href="https://www.gorteradvisie.nl/" target="_blank" class="text-light">
+    <a href="https://www.gorteradvisie.nl/" target="_blank" class="text-reset">
         Gorter Advisie{#
         #}<i class="fas fa-external-link-alt fa-sm ml-1"></i>{#
     #}</a>
