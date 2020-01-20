@@ -9,36 +9,36 @@ $fa-font-path:  "~@fortawesome/fontawesome-free/webfonts";
  * Path: /node_modules/bootstrap/scss/_variables.scss
  */
 
-/* Options */
-$enable-gradients:  true;
-
 /* Color system */
 $blue_very-pale:    #fbfaff;
 $blue_dark:         #140494;
 $blue_very-dark:    #02000e;
-$red_bright:        #f93f28;
+$red_dark:          #941404;
 
 $colors: (
     "blue_very-pale":   $blue_very-pale,
     "blue_dark":        $blue_dark,
     "blue_very-dark":   $blue_very-dark,
-    "red_bright":       $red_bright
+    "red_dark":         $red_dark
 );
 
 $primary:   $blue_dark;
-$danger:    $red_bright;
+$danger:    $red_dark;
 $light:     $blue_very-pale;
 $dark:      $blue_very-dark;
 
 $theme-colors: (
     "primary":  $primary,
+    "danger":   $danger,
     "light":    $light,
     "dark":     $dark
 );
 
+/* Options */
+$enable-gradients:  true;
+
 /* Spacing */
-$spacer:            1rem;
-$grid-gutter-width: $spacer * 2;
+$spacer:    1rem;
 
 $spacers: (
     4:  $spacer * 1.75,
@@ -47,37 +47,47 @@ $spacers: (
 );
 
 /* Body */
-$body-bg:       #eae7fe;
-$body-color:    #050121;
+$body-bg:       $light;
+$body-color:    $dark;
+
+/* Links */
+$link-color:        $primary;
+$link-hover-color:  darken($link-color, 10%);
+
+/* Grid columns */
+$grid-gutter-width: $spacer * 2;
+
+/* Components */
+$border-color:      $light;
+$border-radius:     .2rem;
+$border-radius-sm:  .05rem;
 
 /* Typography */
 $font-size-base:    1rem;
 $font-size-lg:      $font-size-base * 1.125;
 
-/* Links */
-$link-color:                                $primary;
-$emphasized-link-hover-darken-percentage:   10%;
-$link-hover-color:                          darken($link-color, $emphasized-link-hover-darken-percentage);
+$headings-margin-bottom:    $spacer;
 
 /* Buttons */
 $btn-padding-x: $spacer;
 
-/* Borders */
-$border-color:      $light;
-$border-radius:     .2rem;
-$border-radius-sm:  .05rem;
-
-/* Navigation */
+/* Navs */
 $navbar-padding-x:          $grid-gutter-width * .5;
 $navbar-padding-y:          0;
-$nav-link-padding-x:        $navbar-padding-x;
-$nav-link-padding-y:        $navbar-padding-x * 2;
-$navbar-nav-link-padding-x: $nav-link-padding-x;
+$navbar-nav-link-padding-x: $navbar-padding-x;
 $navbar-dark-color:         transparentize(white, .3);
 $navbar-dark-hover-color:   transparentize(white, .2);
 $navbar-dark-active-color:  white;
 
+$nav-link-padding-x:    $navbar-padding-x;
+$nav-link-padding-y:    $navbar-padding-x * 2;
+
+/* Cards */
+$card-border-color: transparentize(black, .9);
+$card-cap-bg:       $light;
+$card-group-margin: $grid-gutter-width * .25;
+
 /* Tooltips */
-$tooltip-bg:        $light;
-$tooltip-color:     $danger;
+$tooltip-bg:        $danger;
+$tooltip-color:     white;
 $tooltip-opacity:   1;

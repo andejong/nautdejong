@@ -1,7 +1,13 @@
 {% set message  = "Wegens spambots zijn deze gegevens beveiligd, en niet selecteerbaar!" %}
 
+<section>
+
 <h1>Contact</h1>
-<table class="table table-sm table-responsive table-borderless fa-colourize">
+
+</section>
+<section class="table-responsive">
+
+<table class="table table-sm table-borderless text-nowrap fa-colourize">
     <tbody>
         <tr>
             <th scope="row">E-mailadres</th>
@@ -63,3 +69,5 @@
         </tr>
     </tbody>
 </table>
+
+</section>

@@ -20,7 +20,7 @@
 </head>
 <body>
 
-<header class="border border-primary shadow-lg bg-gradient-primary">
+<header class="border border-dark shadow-lg bg-gradient-dark">
 
 <nav class="navbar navbar-expand-sm navbar-dark">
     <div class="navbar-collapse">
@@ -44,12 +44,12 @@
 </nav>
 
 </header>
-<main class="container my-6 large">
+<main class="container py-6 large">
 
 {{ content() }}
 
 </main>
-<footer class="d-flex flex-column flex-sm-row align-items-center justify-content-between border border-dark bg-gradient-dark text-center text-light">
+<footer class="container d-flex flex-column flex-sm-row align-items-center justify-content-between py-2 border-top border-dark text-center">
 
 <small class="order-sm-last">
     Hosting:
