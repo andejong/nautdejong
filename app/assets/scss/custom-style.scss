@@ -22,7 +22,34 @@ button:focus,.btn:focus {
 }
 
 .large {
-	font-size:	$font-size-lg;
+	font-size:		$font-size-lg;
+	line-height:	$line-height-lg;
+}
+
+.serif {
+	font-family:	'Gelasio', $font-family-serif;
+
+	:not(.lead) {
+		font-size:		105%;
+	}
+}
+
+.btn {
+	letter-spacing:	.05rem;
+}
+
+.btn.stretched-link {
+	&:hover::after {
+		background-color:	transparentize(black, .9);
+	}
+
+	&::after {
+		border-width:	$btn-border-width;
+		border-style:	solid;
+		border-color:	$border-color;
+		border-radius:	$border-radius;
+		transition:		$btn-transition;
+	}
 }
 
 /* Layout */
@@ -42,6 +69,7 @@ body {
 	&-nav .nav-link {
 		padding-right:	$navbar-nav-link-padding-x;
 		padding-left:	$navbar-nav-link-padding-x;
+		letter-spacing:	.05rem;
 	}
 
 	&-expand-sm {
@@ -79,6 +107,25 @@ body {
 			background-color:	transparentize(white, .7);
 			color:				white;
 		}
+	}
+}
+
+/* Cards */
+.card {
+	&-header {
+		@include gradient-bg($light);
+	}
+
+	&-title {
+		margin-bottom: 0;
+	}
+
+	&-body {
+		font-family:	'Gelasio', $font-family-serif;
+	}
+
+	&-footer {
+		@include gradient-bg($light);
 	}
 }
 
