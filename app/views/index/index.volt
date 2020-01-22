@@ -1,7 +1,7 @@
-<section class="mx-sm-4 mb-6">
+<article class="mb-6">
 
 <h1>Naut de Jong</h1>
-<p class="lead serif">
+<p class="lead">
     Welkom op de voorpagina.
     Dit is een korte inleidende tekst.
     Drie regels moet voldoende zijn.
@@ -15,12 +15,12 @@
 </p>
 <p>Dit is dus de tweede alinea.</p>
 
-</section>
-<section class="card-deck mb-6">
+</article>
+<section class="card-deck mx-sm-n4 mb-6">
 
 <div class="card">
     <div class="card-header">
-        <h2 class="card-title">Over</h2>
+        <h2 class="card-title">Vaardigheden</h2>
     </div>
     <div class="card-body">
         <p class="card-text">
@@ -29,7 +29,7 @@
         </p>
     </div>
     <div class="card-footer">
-        <a href="/over/" class="btn btn-primary w-100 stretched-link">Lees meer</a>
+        <a href="/vaardigheden/" class="btn btn-primary w-100 stretched-link">Lees meer</a>
     </div>
 </div>
 <div class="card">
@@ -62,7 +62,7 @@
 </div>
 
 </section>
-<section class="mx-sm-4">
+<article>
 
 <p>
     Nog een afsluitend tekstje met misschien een
@@ -70,4 +70,4 @@
     naar bijvoorbeeld dit project in GitHub.
 </p>
 
-</section>
+</article>

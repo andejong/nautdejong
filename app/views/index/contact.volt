@@ -1,13 +1,13 @@
 {% set message  = "Wegens spambots zijn deze gegevens beveiligd, en niet selecteerbaar!" %}
 
-<section class="mx-sm-4 mb-6">
+<section class="mb-6">
 
 <h1>Contact</h1>
 
 <p class="serif">tekst.</p>
 
 </section>
-<table class="table table-sm table-responsive table-borderless mx-sm-4 mb-6 text-nowrap fa-colourize">
+<table class="table table-sm table-responsive table-borderless text-nowrap fa-colourize">
 
 <tbody>
     <tr>

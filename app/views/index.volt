@@ -30,10 +30,11 @@
             <li class="nav-item mr-sm-auto">
                 <a href="/" class="nav-link{% if request.getUri() is '/' %} active{% endif %}">
                     <i class="fas fa-home"></i>
+                    <span class="sr-only">Voorpagina</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="/over/" class="nav-link{% if request.getUri() is '/over/' %} active{% endif %}">Over</a>
+                <a href="/vaardigheden/" class="nav-link{% if request.getUri() is '/vaardigheden/' %} active{% endif %}">Vaardigheden</a>
             </li>
             <li class="nav-item">
                 <a href="/portfolio/" class="nav-link{% if request.getUri() is '/portfolio/' %} active{% endif %}">Portfolio</a>
@@ -53,7 +54,7 @@
 </main>
 <footer class="container">
 
-<hr class="mt-0" />
+<hr class="mt-0 mx-sm-n4" />
 <section class="d-flex flex-column flex-sm-row align-items-center justify-content-between mb-3 text-center">
     <small class="order-sm-last">
         Hosting:

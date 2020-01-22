@@ -10,6 +10,7 @@ button:focus,.btn:focus {
 	-webkit-appearance:	none;
 }
 
+/* Tables */
 .table {
 	th {
 		text-align:		right;
@@ -21,34 +22,40 @@ button:focus,.btn:focus {
 	}
 }
 
+/* Typography */
 .large {
-	font-size:		$font-size-lg;
+	font-size:		$large-font-size;
 	line-height:	$line-height-lg;
+}
+
+.small {
+	font-size:	$small-font-size;
+}
+
+article {
+	font-family:	'Gelasio', $font-family-serif;
+	font-size:		105%;
 }
 
 .serif {
 	font-family:	'Gelasio', $font-family-serif;
-
-	:not(.lead) {
-		font-size:		105%;
-	}
 }
 
 .btn {
 	letter-spacing:	.05rem;
-}
 
-.btn.stretched-link {
-	&:hover::after {
-		background-color:	transparentize(black, .9);
-	}
+	&.stretched-link {
+		&:hover::after {
+			background-color:	transparentize(black, .9);
+		}
 
-	&::after {
-		border-width:	$btn-border-width;
-		border-style:	solid;
-		border-color:	$border-color;
-		border-radius:	$border-radius;
-		transition:		$btn-transition;
+		&::after {
+			border-width:	$btn-border-width;
+			border-style:	solid;
+			border-color:	$border-color;
+			border-radius:	$border-radius;
+			transition:		$btn-transition;
+		}
 	}
 }
 
@@ -62,6 +69,11 @@ body {
 	main {
 		flex-grow:	1;
 	}
+}
+
+.container {
+	padding-right:	$grid-gutter-width;
+	padding-left:	$grid-gutter-width;
 }
 
 /* Navigation */
@@ -122,6 +134,7 @@ body {
 
 	&-body {
 		font-family:	'Gelasio', $font-family-serif;
+		font-size:		105%;
 	}
 
 	&-footer {

@@ -1,4 +1,4 @@
-<section class="mx-sm-4 mb-6">
+<section>
 
 <h1>Portfolio</h1>
 
