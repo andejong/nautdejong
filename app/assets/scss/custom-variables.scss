@@ -67,7 +67,7 @@ $container-max-widths: (
     "sm":   600px,
     "md":   900px,
     "lg":   1144px,
-    "xl":   1724px
+    "xl":   1704px
 );
 
 /* Grid columns */
@@ -135,3 +135,13 @@ $card-group-margin: $grid-gutter-width * .25;
 $tooltip-bg:        $danger;
 $tooltip-color:     white;
 $tooltip-opacity:   1;
+
+/* Badges */
+$badge-font-size:       $font-size-base;
+$badge-padding-y:       .3rem;
+$badge-border-radius:   0;
+
+/* Progress bars */
+$progress-height:               $spacer * 1.5;
+$progress-bg:                   transparentize(black, .9);
+$progress-bar-transition:       width 2s ease;
