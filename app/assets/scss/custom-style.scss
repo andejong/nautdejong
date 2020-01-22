@@ -1,5 +1,10 @@
 /* Custom style */
 /* Normalize */
+:root {
+	--font-family-sans-serif:	'Rubik', #{inspect($font-family-sans-serif)};
+	--font-family-serif:		'Gelasio', #{inspect($font-family-serif)};
+}
+
 button:focus,.btn:focus {
 	outline:    0;
 	box-shadow:	none;
@@ -33,12 +38,12 @@ button:focus,.btn:focus {
 }
 
 article {
-	font-family:	'Gelasio', $font-family-serif;
+	font-family:	var(--font-family-serif);
 	font-size:		105%;
 }
 
 .serif {
-	font-family:	'Gelasio', $font-family-serif;
+	font-family:	var(--font-family-serif);
 }
 
 .btn {
@@ -133,7 +138,7 @@ body {
 	}
 
 	&-body {
-		font-family:	'Gelasio', $font-family-serif;
+		font-family:	var(--font-family-serif);
 		font-size:		105%;
 	}
 

@@ -107,14 +107,14 @@ $font-family-sans-serif:
     "Noto Color Emoji"
 ;
 
-$font-family-base:  'Rubik', $font-family-sans-serif;
+$font-family-base:  var(--font-family-sans-serif);
 $font-size-base:    1rem;
 $font-size-lg:      $font-size-base * 1.125;
 
 $line-height-base:  1.6;
 $line-height-lg:    $line-height-base * 1.125;
 
-$headings-font-family:      'Gelasio', $font-family-serif;
+$headings-font-family:      var(--font-family-serif);
 $headings-line-height:      1;
 $headings-margin-bottom:    $spacer * 2;
 
