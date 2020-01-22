@@ -29,7 +29,7 @@
         </p>
     </div>
     <div class="card-footer">
-        <a href="/vaardigheden/" class="btn btn-primary w-100 stretched-link">Lees meer</a>
+        <a href="/vaardigheden/" class="btn btn-primary btn-lg btn-block stretched-link">Lees meer</a>
     </div>
 </div>
 <div class="card">
@@ -43,7 +43,7 @@
         </p>
     </div>
     <div class="card-footer">
-        <a href="/portfolio/" class="btn btn-primary w-100 stretched-link">Bekijk mijn portfolio</a>
+        <a href="/portfolio/" class="btn btn-primary btn-lg btn-block stretched-link">Bekijk mijn portfolio</a>
     </div>
 </div>
 <div class="card">
@@ -57,7 +57,7 @@
         </p>
     </div>
     <div class="card-footer">
-        <a href="/contact/" class="btn btn-primary w-100 stretched-link">Neem contact op</a>
+        <a href="/contact/" class="btn btn-primary btn-lg btn-block stretched-link">Neem contact op</a>
     </div>
 </div>
 
