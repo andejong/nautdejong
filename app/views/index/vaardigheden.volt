@@ -7,7 +7,7 @@
 
 <div class="col">
 	<table class="table table-responsive table-borderless text-nowrap">
-		<caption>Talen</caption>
+		<caption>Programmeer- &amp; opmaaktalen</caption>
 		<tbody>
 			<tr>
 				<th scope="row">HTML</abbr></th>
@@ -136,7 +136,7 @@
 			<span class="fa-li">
 				<i class="far fa-check-square"></i>
 			</span>
-			phpMyAdmin
+			PhpMyAdmin
 		</li>
 		<li>
 			<span class="fa-li">
@@ -163,21 +163,21 @@
 	<ul class="fa-ul">
 		<li>
 			<span class="fa-li">
-				<i class="far fa-check-square"></i>
+				<i class="fab fa-windows"></i>
 			</span>
 			Windows
 		</li>
 		<li>
 			<span class="fa-li">
-				<i class="far fa-check-square"></i>
+				<i class="fab fa-apple"></i>
 			</span>
 			MacOS X
 		</li>
 		<li>
 			<span class="fa-li">
-				<i class="far fa-check-square"></i>
+				<i class="fab fa-linux"></i>
 			</span>
-			GNU&plus;Linux (Debian, Arch, Ubuntu, Void)
+			GNU/Linux (Debian, Arch, Ubuntu, Void)
 		</li>
 	</ul>
 </div>

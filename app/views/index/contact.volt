@@ -1,4 +1,4 @@
-{% set message  = "Wegens spambots zijn deze gegevens beveiligd, en niet selecteerbaar!" %}
+{% set message  = "Wegens spambots zijn deze gegevens afgeschermd, en niet selecteerbaar!" %}
 
 <section class="mb-6">
 
@@ -17,11 +17,12 @@
         </td>
         <td class="w-100">
             <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
-                <bdo data-insert="ln."></bdo>{#
-                #}<bdo data-insert="emoh-lrtc"></bdo>{#
+                <bdo data-insert="gnojedna"></bdo>{#
                 #}<i class="fas fa-at fa-sm"></i>{#
-                #}<bdo data-insert="gnojedna"></bdo>
+                #}<bdo data-insert="emoh-lrtc"></bdo>{#
+                #}<bdo data-insert="ln."></bdo>
             </span>
+            <span class="sr-only">Afgeschermd</span>
         </td>
     </tr>
     <tr>
@@ -32,12 +33,13 @@
         <td>
             <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
                 <i class="fas fa-plus fa-sm"></i>{#
-                #}<bdo data-insert="68"></bdo>
-                <bdo data-insert="49"></bdo>
-                <bdo data-insert="83"></bdo>
+                #}<bdo data-insert="6 13"></bdo>
                 <bdo data-insert="02"></bdo>
-                <bdo data-insert="13">&nbsp;6</bdo>
+                <bdo data-insert="83"></bdo>
+                <bdo data-insert="49"></bdo>
+                <bdo data-insert="68"></bdo>
             </span>
+            <span class="sr-only">Afgeschermd</span>
         </td>
     </tr>
     <tr>
@@ -45,11 +47,7 @@
         <td>
             <i class="fab fa-telegram fa-2x fa-fw"></i>
         </td>
-        <td>
-            <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
-                <bdo data-insert="gnoJedtuaN"></bdo>
-            </span>
-        </td>
+        <td>NautdeJong</td>
     </tr>
     <tr>
         <th scope="row">GitHub</th>
