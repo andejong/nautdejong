@@ -59,14 +59,14 @@ $link-hover-color:  darken($link-color, 10%);
 /* Grid breakpoints */
 $grid-breakpoints: (
     "xs":   0,
-    "sm":   600px,
+    "sm":   720px,
     "md":   960px,
     "lg":   1264px,
     "xl":   1904px
 );
 
 $container-max-widths: (
-    "sm":   600px,
+    "sm":   720px,
     "md":   900px,
     "lg":   1144px,
     "xl":   1704px
