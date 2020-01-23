@@ -1,5 +1,10 @@
 /* Custom style */
 /* Normalize */
+:root {
+	--font-family-sans-serif:	'Rubik', #{inspect($font-family-sans-serif)};
+	--font-family-serif:		'Gelasio', #{inspect($font-family-serif)};
+}
+
 button:focus,.btn:focus {
 	outline:    0;
 	box-shadow:	none;
@@ -10,6 +15,7 @@ button:focus,.btn:focus {
 	-webkit-appearance:	none;
 }
 
+/* Tables */
 .table {
 	th {
 		text-align:		right;
@@ -21,8 +27,41 @@ button:focus,.btn:focus {
 	}
 }
 
+/* Typography */
 .large {
-	font-size:	$font-size-lg;
+	font-size:		$large-font-size;
+	line-height:	$line-height-lg;
+}
+
+.small {
+	font-size:	$small-font-size;
+}
+
+article {
+	font-family:	var(--font-family-serif);
+	font-size:		105%;
+}
+
+.serif {
+	font-family:	var(--font-family-serif);
+}
+
+.btn {
+	letter-spacing:	.05rem;
+
+	&.stretched-link {
+		&:hover::after {
+			background-color:	transparentize(black, .9);
+		}
+
+		&::after {
+			border-width:	$btn-border-width;
+			border-style:	solid;
+			border-color:	$border-color;
+			border-radius:	$border-radius;
+			transition:		$btn-transition;
+		}
+	}
 }
 
 /* Layout */
@@ -37,11 +76,17 @@ body {
 	}
 }
 
+.container {
+	padding-right:	$grid-gutter-width;
+	padding-left:	$grid-gutter-width;
+}
+
 /* Navigation */
 .navbar {
 	&-nav .nav-link {
 		padding-right:	$navbar-nav-link-padding-x;
 		padding-left:	$navbar-nav-link-padding-x;
+		letter-spacing:	.05rem;
 	}
 
 	&-expand-sm {
@@ -79,6 +124,26 @@ body {
 			background-color:	transparentize(white, .7);
 			color:				white;
 		}
+	}
+}
+
+/* Cards */
+.card {
+	&-header {
+		@include gradient-bg($light);
+	}
+
+	&-title {
+		margin-bottom: 0;
+	}
+
+	&-body {
+		font-family:	var(--font-family-serif);
+		font-size:		105%;
+	}
+
+	&-footer {
+		@include gradient-bg($light);
 	}
 }
 

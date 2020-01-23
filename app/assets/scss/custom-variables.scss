@@ -67,6 +67,22 @@ $body-color:    $dark;
 $link-color:        $primary;
 $link-hover-color:  darken($link-color, 10%);
 
+/* Grid breakpoints */
+$grid-breakpoints: (
+    "xs":   0,
+    "sm":   600px,
+    "md":   960px,
+    "lg":   1264px,
+    "xl":   1904px
+);
+
+$container-max-widths: (
+    "sm":   600px,
+    "md":   900px,
+    "lg":   1144px,
+    "xl":   1704px
+);
+
 /* Grid columns */
 $grid-gutter-width: $spacer * 2;
 
@@ -76,10 +92,37 @@ $border-radius:     .2rem;
 $border-radius-sm:  .05rem;
 
 /* Typography */
+$font-family-serif:
+    Constantia,
+    "Lucida Bright",
+    Lucidabright,
+    "Lucida Serif",
+    Lucida,
+    "DejaVu Serif",
+    "Bitstream Vera Serif",
+    "Liberation Serif",
+    Georgia,
+    serif
+;
+
+$font-family-base:  var(--font-family-sans-serif);
 $font-size-base:    1rem;
 $font-size-lg:      $font-size-base * 1.125;
 
-$headings-margin-bottom:    $spacer;
+$line-height-base:  1.6;
+$line-height-lg:    $line-height-base * 1.125;
+
+$headings-font-family:      var(--font-family-serif);
+$headings-line-height:      1;
+$headings-margin-bottom:    $spacer * 2;
+
+$lead-font-size:    105%;
+$lead-font-weight:  500;
+
+$small-font-size:   80%;
+$large-font-size:   112.5%;
+
+$hr-color:  black;
 
 /* Buttons */
 $btn-padding-x: $spacer;
@@ -96,6 +139,7 @@ $nav-link-padding-x:    $navbar-padding-x;
 $nav-link-padding-y:    $navbar-padding-x * 2;
 
 /* Cards */
+$card-spacer-y: $spacer * 1.125;
 $card-border-color: transparentize(black, .9);
 $card-cap-bg:       $light;
 $card-group-margin: $grid-gutter-width * .25;
@@ -104,3 +148,13 @@ $card-group-margin: $grid-gutter-width * .25;
 $tooltip-bg:        $danger;
 $tooltip-color:     white;
 $tooltip-opacity:   1;
+
+/* Badges */
+$badge-font-size:       $font-size-base;
+$badge-padding-y:       .3rem;
+$badge-border-radius:   0;
+
+/* Progress bars */
+$progress-height:               $spacer * 1.5;
+$progress-bg:                   transparentize(black, .9);
+$progress-bar-transition:       width 2s ease;
