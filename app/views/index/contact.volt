@@ -17,10 +17,10 @@
         </td>
         <td class="w-100">
             <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
-                <bdo data-insert="gnojedna"></bdo>{#
+                <bdo data-insert="ln."></bdo>{#
+                #}<bdo data-insert="emoh-lrtc"></bdo>{#
                 #}<i class="fas fa-at fa-sm"></i>{#
-                #}<bdo data-insert="emoh-lrtc">.</bdo>{#
-                #}<bdo data-insert="ln"></bdo>
+                #}<bdo data-insert="gnojedna"></bdo>
             </span>
         </td>
     </tr>
@@ -32,11 +32,11 @@
         <td>
             <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
                 <i class="fas fa-plus fa-sm"></i>{#
-                #}<bdo data-insert="13"></bdo>
-                <bdo data-insert="02">&nbsp;6</bdo>
-                <bdo data-insert="83"></bdo>
+                #}<bdo data-insert="68"></bdo>
                 <bdo data-insert="49"></bdo>
-                <bdo data-insert="68"></bdo>
+                <bdo data-insert="83"></bdo>
+                <bdo data-insert="02"></bdo>
+                <bdo data-insert="13">&nbsp;6</bdo>
             </span>
         </td>
     </tr>
@@ -47,12 +47,7 @@
         </td>
         <td>
             <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
-                <i class="fas fa-plus fa-sm"></i>{#
-                #}<bdo data-insert="13"></bdo>
-                <bdo data-insert="02">&nbsp;6</bdo>
-                <bdo data-insert="83"></bdo>
-                <bdo data-insert="49"></bdo>
-                <bdo data-insert="68"></bdo>
+                <bdo data-insert="gnoJedtuaN"></bdo>
             </span>
         </td>
     </tr>

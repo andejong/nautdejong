@@ -27,7 +27,7 @@ class ControllerBase extends Controller
 
         $this
             ->assets
-            ->collection('remote-header')
+            ->collection('header-remote')
             ->addCss('https://fonts.googleapis.com/css?family=Gelasio:400,500|Rubik:400,700&display=swap', false)
         ;
     }

@@ -13,12 +13,14 @@ $fa-font-path:  "~@fortawesome/fontawesome-free/webfonts";
 $blue_very-pale:    #fbfaff;
 $blue_dark:         #140494;
 $blue_very-dark:    #02000e;
+$blue_greyish:      #b7b6ba;
 $red_dark:          #941404;
 
 $colors: (
     "blue_very-pale":   $blue_very-pale,
     "blue_dark":        $blue_dark,
     "blue_very-dark":   $blue_very-dark,
+    "blue_greyish":     $blue_greyish,
     "red_dark":         $red_dark
 );
 
@@ -121,6 +123,8 @@ $lead-font-weight:  500;
 
 $small-font-size:   80%;
 $large-font-size:   112.5%;
+
+$text-muted:    #b7b6ba;
 
 $hr-color:  black;
 

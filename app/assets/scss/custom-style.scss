@@ -17,6 +17,10 @@ button:focus,.btn:focus {
 
 /* Tables */
 .table {
+	caption {
+		caption-side:	top;
+	}
+
 	th {
 		text-align:		right;
 		vertical-align:	middle;
