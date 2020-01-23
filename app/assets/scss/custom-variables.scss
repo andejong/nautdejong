@@ -49,19 +49,6 @@ $spacers: (
 );
 
 /* Body */
-$font-family-serif:
-    'Gelasio',
-    Constantia,
-    "Lucida Bright",
-    Lucidabright,
-    "Lucida Serif",
-    Lucida,
-    "DejaVu Serif",
-    "Bitstream Vera Serif",
-    "Liberation Serif",
-    Georgia,
-    serif;
-
 $body-bg:       $light;
 $body-color:    $dark;
 
@@ -95,6 +82,7 @@ $border-radius-sm:  .05rem;
 
 /* Typography */
 $font-family-serif:
+    'Gelasio',
     Constantia,
     "Lucida Bright",
     Lucidabright,
