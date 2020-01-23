@@ -15,7 +15,8 @@
 
 {{ assets.outputCss('header') }}
 
-<link rel="shortcut icon" type="image/x-icon" href="{{ url('img/favicon.ico') }}" />
+<link href="{{ url('img/favicon.ico') }}" rel="shortcut icon" type="image/x-icon" />
+<link href="https://fonts.googleapis.com/css?family=Gelasio:400,500&display=swap" rel="stylesheet" />
 
 </head>
 <body>

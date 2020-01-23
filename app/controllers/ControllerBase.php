@@ -5,20 +5,24 @@ use Phalcon\Mvc\Controller;
 
 class ControllerBase extends Controller
 {
-    public function onConstruct() {
-        $this
+    public function initialize() {
+        $styles = $this
             ->assets
             ->collection('header')
-            ->addCSS('css/frontend.css')
-            ->setPrefix('http://'.$_SERVER['HTTP_HOST'].':8081'.DIRECTORY_SEPARATOR)
+            ->addCSS('/css/frontend.css')
         ;
-        $this
+
+        $scripts = $this
             ->assets
             ->collection('footer')
             ->addJs('/js/frontend.js')
             ->addJs('/js/vendor.frontend.js')
             ->addJs('/js/main.frontend.js')
-            ->setPrefix('http://'.$_SERVER['HTTP_HOST'].':8081'.DIRECTORY_SEPARATOR)
         ;
+
+        if($this->config->application_env === 'development') {
+            $styles->setPrefix('http://'.$_SERVER['HTTP_HOST'].':8081');
+            $scripts->setPrefix('http://'.$_SERVER['HTTP_HOST'].':8081');
+        }
     }
 }
