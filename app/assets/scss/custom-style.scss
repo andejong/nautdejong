@@ -33,6 +33,17 @@ button:focus,.btn:focus {
 }
 
 /* Typography */
+article {
+	font-family:	var(--font-family-serif);
+	font-size:		105%;
+}
+
+.p {
+	margin-bottom:	$paragraph-margin-bottom;
+	font-size:		inherit;
+	line-height:	$line-height-base;
+}
+
 .large {
 	font-size:		$large-font-size;
 	line-height:	$line-height-lg;
@@ -42,15 +53,15 @@ button:focus,.btn:focus {
 	font-size:	$small-font-size;
 }
 
-article {
-	font-family:	var(--font-family-serif);
-	font-size:		105%;
-}
-
 .serif {
 	font-family:	var(--font-family-serif);
 }
 
+.sans-serif {
+	font-family:	var(--font-family-sans-serif);
+}
+
+/* Buttons */
 .btn {
 	letter-spacing:	.05rem;
 
@@ -142,13 +153,24 @@ body {
 		margin-bottom: 0;
 	}
 
-	&-body {
+	&-text {
 		font-family:	var(--font-family-serif);
 		font-size:		105%;
 	}
 
 	&-footer {
 		@include gradient-bg($light);
+	}
+}
+
+/* List group */
+.list-group-item-action {
+	font-size:		$font-size-base;
+	line-height:	$line-height-base;
+	transition:		$btn-transition;
+
+	&:hover {
+		text-decoration:	underline;
 	}
 }
 

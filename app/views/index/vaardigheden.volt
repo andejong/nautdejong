@@ -7,7 +7,9 @@
 
 <div class="col">
 	<table class="table table-responsive table-borderless text-nowrap">
-		<caption>Programmeer- &amp; opmaaktalen</caption>
+		<caption>
+			<h2 class="mb-0 p sans-serif">Programmeer- &amp; opmaaktalen</h2>
+		</caption>
 		<tbody>
 			<tr>
 				<th scope="row">HTML</abbr></th>
@@ -62,7 +64,9 @@
 </div>
 <div class="col">
 	<table class="table table-responsive table-borderless text-nowrap">
-		<caption>Frameworks/CMS</caption>
+		<caption>
+			<h2 class="mb-0 p sans-serif">Frameworks/CMS</h2>
+		</caption>
 		<tbody>
 			<tr>
 				<th scope="row">Bootstrap</th>
@@ -100,7 +104,7 @@
 	</table>
 </div>
 <div class="col">
-	<p class="text-muted">Applicaties</p>
+	<h2 class="p sans-serif text-muted">Applicaties</h2>
 	<ul class="fa-ul">
 		<li>
 			<span class="fa-li">
@@ -159,7 +163,7 @@
 	</ul>
 </div>
 <div class="col">
-	<p class="text-muted">Besturingssytemen</p>
+	<h2 class="p sans-serif text-muted">Besturingssystemen</h2>
 	<ul class="fa-ul">
 		<li>
 			<span class="fa-li">

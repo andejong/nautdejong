@@ -1,59 +1,58 @@
-<section class="mb-6">
+<article class="mb-6">
 
 <h1>Portfolio</h1>
 
-</section>
-<section class="mx-sm-n4">
+<p>
+    Dit is een lijst van externe links
+    <i class="fas fa-external-link-alt fa-sm"></i>
+    naar projecten waar ik aan gewerkt heb.
+</p>
 
-<div class="alert alert-warning" role="alert">Dit zijn allemaal uitgaande links!</div>
-<div class="card-deck">
-    <div class="card">
-        <div class="card-header">
-            <span class="text-muted">Bootstrap</span>
+</article>
+<section class="card-deck mx-sm-n4">
+
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <h2 class="mb-0 p sans-serif text-muted">Bootstrap</h2>
         </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-                <a href="https://www.test.oerij.eu/" target="_blank">Stichting Oer-IJ</a>
-            </li>
-            <li class="list-group-item">
-                <a href="https://www.beethovenetenendrinken.nl/" target="_blank">Beethoven Eten &amp; Drinken</a>
-            </li>
-            <li class="list-group-item">
-                <a href="https://www.hftechnology.nl/" target="_blank">HF Technology</a>
-            </li>
-            <li class="list-group-item">
-                <a href="https://www.tafelprinses.nl/" target="_blank">De Tafelprinses</a>
-            </li>
-            <li class="list-group-item">
-                <a href="https://www.stichtingvriendenvanhetkleurenorkest.nl/" target="_blank">Stichting Vrienden van het Kleurenorkest</a>
-            </li>
-            <li class="list-group-item">
-                <a href="https://www.vkij.nl/" target="_blank">Vereniging Kennemer IJsbaan</a>
-            </li>
-            <li class="list-group-item">
-                <a href="http://www.bobendeblueband.com/" target="_blank">Bob en de Blue Band</a>
-            </li>
-        </ul>
     </div>
-    <div class="card">
-        <div class="card-header">
-            <span class="text-muted">Vuetify</span>
+    <div class="card-body">
+        <div class="list-group">
+            <a class="list-group-item list-group-item-action" href="https://test.oerij.eu/" target="_blank">Stichting Oer-IJ</a>
+            <a class="list-group-item list-group-item-action" href="https://www.beethovenetenendrinken.nl/" target="_blank">Beethoven Eten &amp; Drinken</a class="list-group-item list-group-item-action">
+            <a class="list-group-item list-group-item-action" href="https://www.hftechnology.nl/" target="_blank">HF Technology</a>
+            <a class="list-group-item list-group-item-action" href="https://www.tafelprinses.nl/" target="_blank">De Tafelprinses</a>
+            <a class="list-group-item list-group-item-action" href="https://www.stichtingvriendenvanhetkleurenorkest.nl/" target="_blank">Stichting Vrienden van het Kleurenorkest</a>
+            <a class="list-group-item list-group-item-action" href="http://www.bobendeblueband.com/" target="_blank">Bob en de Blue Band</a>
+            <a class="list-group-item list-group-item-action" href="http://www.tkbewindvoering.nl/" target="_blank">TK Bewindvoering</a>
+            <a class="list-group-item list-group-item-action" href="https://www.vkij.nl/" target="_blank">Vereniging Kennemer IJsbaan</a>
         </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-                <a href="https://www.kaart.oerij.eu/" target="_blank">Kaart van Stichting Oer-IJ</a>
-            </li>
-        </ul>
     </div>
-    <div class="card">
-        <div class="card-header">
-            <span class="text-muted">Wordpress</span>
+</div>
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <h2 class="mb-0 p sans-serif text-muted">Vuetify</h2>
         </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-                <a href="https://www.acborst.nl/" target="_blank">AC Borst Bouw</a>
-            </li>
-        </ul>
+    </div>
+    <div class="card-body">
+        <div class="list-group">
+            <a class="list-group-item list-group-item-action" href="https://kaart.oerij.eu/" target="_blank">Kaart van Stichting Oer-IJ</a>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <h2 class="mb-0 p sans-serif text-muted">Wordpress</h2>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="list-group">
+            <a class="list-group-item list-group-item-action" href="https://www.acborst.nl/" target="_blank">AC Borst Bouw</a>
+            <a class="list-group-item list-group-item-action" href="https://www.wsib.nl/" target="_blank">Waardse Senioren in Beweging</a>
+        </div>
     </div>
 </div>
 

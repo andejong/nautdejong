@@ -131,7 +131,7 @@ $nav-link-padding-x:    $navbar-padding-x;
 $nav-link-padding-y:    $navbar-padding-x * 2;
 
 /* Cards */
-$card-spacer-y: $spacer * 1.125;
+$card-spacer-y:     $spacer * 1.125;
 $card-border-color: transparentize(black, .9);
 $card-cap-bg:       $light;
 $card-group-margin: $grid-gutter-width * .25;
@@ -143,10 +143,19 @@ $tooltip-opacity:   1;
 
 /* Badges */
 $badge-font-size:       $font-size-base;
-$badge-padding-y:       .3rem;
+$badge-padding-y:       $spacer * .3;
 $badge-border-radius:   0;
 
 /* Progress bars */
 $progress-height:               $spacer * 1.5;
 $progress-bg:                   transparentize(black, .9);
 $progress-bar-transition:       width 2s ease;
+
+/* List group */
+$list-group-item-padding-x:     $spacer * 1;
+$list-group-item-padding-y:     $spacer * .5;
+$list-group-border-color:       transparentize(black, .9);
+$list-group-hover-bg:           $light;
+$list-group-action-color:       $link-color;
+$list-group-action-hover-color: $link-hover-color;
+$list-group-action-active-bg:   transparentize(black, .9);

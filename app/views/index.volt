@@ -61,13 +61,12 @@
             Gorter Advisie{#
             #}<i class="fas fa-external-link-alt fa-sm ml-1"></i>{#
         #}</a>
-        
         <i class="fas fa-grip-lines-vertical fa-sm"></i>
         2020
         <i class="far fa-copyright fa-sm"></i>
         Naut de Jong    
     </small>
-    <div>
+    <div class="text-muted">
         <i class="fab fa-html5 fa-fw"></i>
         <i class="fab fa-css3 fa-fw"></i>
         <i class="fab fa-sass fa-fw"></i>

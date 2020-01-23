@@ -65,9 +65,9 @@
 <article>
 
 <p>
-    Nog een afsluitend tekstje met misschien een
-    <a href="https://github.com/andejong/nautdejong" target="_blank">link</a>
-    naar bijvoorbeeld dit project in GitHub.
+    Bekijk de website met
+    <a href="https://github.com/andejong/nautdejong" target="_blank">deze link</a>
+    ook op GitHub.
 </p>
 
 </article>
