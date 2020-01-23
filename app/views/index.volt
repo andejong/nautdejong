@@ -14,8 +14,7 @@
 <meta name="author" content="Naut de Jong" />
 
 {{ assets.outputCss('header') }}
-
-<link href="https://fonts.googleapis.com/css?family=Gelasio:400,500|Rubik:400,700&display=swap" rel="stylesheet" />
+{{ assets.outputCss('remote-header') }}
 
 <link rel="shortcut icon" type="image/x-icon" href="{{ url('img/favicon.ico') }}" />
 

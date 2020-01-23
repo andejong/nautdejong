@@ -9,7 +9,7 @@ class ControllerBase extends Controller
         $styles = $this
             ->assets
             ->collection('header')
-            ->addCSS('/css/frontend.css')
+            ->addCss('/css/frontend.css')
         ;
 
         $scripts = $this
@@ -24,5 +24,11 @@ class ControllerBase extends Controller
             $styles->setPrefix('http://'.$_SERVER['HTTP_HOST'].':8081');
             $scripts->setPrefix('http://'.$_SERVER['HTTP_HOST'].':8081');
         }
+
+        $this
+            ->assets
+            ->collection('remote-header')
+            ->addCss('https://fonts.googleapis.com/css?family=Gelasio:400,500|Rubik:400,700&display=swap', false)
+        ;
     }
 }
