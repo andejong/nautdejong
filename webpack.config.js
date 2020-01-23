@@ -35,7 +35,7 @@ const config = {
                         }
                     },
                     {
-                        loader: 'css-loader',
+                        loader: 'css-loader'
                     },
                     'sass-loader'
                 ]
@@ -69,7 +69,9 @@ const config = {
             'windows.jQuery': 'jquery'
         }),
         new MiniCssExtractPlugin({
-            filename: IS_DEV ? 'css/frontend.css' : 'css/frontend.[contenthash].css',
+            filename: IS_DEV
+                ? 'css/frontend.css'
+                : 'css/frontend.[contenthash].css',
             chunkFilename: 'css/frontend.css'
         }),
         new webpack.HashedModuleIdsPlugin(),
@@ -108,7 +110,7 @@ const config = {
 if (!IS_DEV) {
     const TerserPlugin = require('terser-webpack-plugin');
     const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-    
+
     config.optimization.minimizer.push(
         new TerserPlugin(),
         new OptimizeCSSAssetsPlugin({})
