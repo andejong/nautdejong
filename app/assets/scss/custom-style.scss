@@ -28,7 +28,7 @@ button:focus,.btn:focus {
 	}
 
 	td {
-		vertical-align:	middle;
+        vertical-align:	middle;
 	}
 }
 
@@ -61,9 +61,41 @@ article {
 	font-family:	var(--font-family-sans-serif);
 }
 
+.fa {
+    &-copyright {
+        transform:  scale(-1, 1);
+    }
+
+    &-colourize .fa {
+        &-envelope-square {
+            color:	color("yellow")
+        }
+
+        &-phone-square-alt {
+            color:	color("green");
+        }
+
+        &-telegram {
+            color:	#0088cc;
+        }
+
+        &-github {
+            color: #333333;
+        }
+	}
+}
+
 /* Buttons */
 .btn {
-	letter-spacing:	.05rem;
+    letter-spacing:	.05rem;
+
+    &:not([href]) {
+        color:  $primary;
+
+        &:hover {
+            color:  white;
+        }
+    }
 
 	&.stretched-link {
 		&:hover::after {
@@ -171,25 +203,6 @@ body {
 
 	&:hover {
 		text-decoration:	underline;
-	}
-}
-
-/* Font Awesome colourized */
-.fa-colourize .fa {
-	&-envelope-square {
-		color:	color("yellow")
-	}
-
-	&-phone-square-alt {
-		color:	color("green");
-	}
-
-	&-telegram {
-		color:	#0088cc;
-	}
-
-	&-github {
-		color: #333333;
 	}
 }
 

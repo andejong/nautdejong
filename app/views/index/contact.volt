@@ -12,16 +12,16 @@
 <tbody>
     <tr>
         <th scope="row">E-mailadres</th>
-        <td>
-            <i class="fas fa-envelope-square fa-2x fa-fw"></i>
-        </td>
+
+
         <td class="w-100">
-            <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
+            <i class="fas fa-envelope-square fa-2x fa-fw"></i>
+            <a id="email" class="d-inline-flex align-items-center btn btn-outline-primary">
+                <!-- <span data-user=naut data-domain=ffgf data- -->
                 <bdo data-insert="gnojedna"></bdo>{#
                 #}<i class="fas fa-at fa-sm"></i>{#
-                #}<bdo data-insert="emoh-lrtc"></bdo>{#
-                #}<bdo data-insert="ln."></bdo>
-            </span>
+                #}<bdo data-insert="ln.emoh-lrtc"></bdo>
+                </a>
             <span class="sr-only">Afgeschermd</span>
         </td>
     </tr>
@@ -29,33 +29,28 @@
         <th scope="row">Telefoonnummer</th>
         <td>
             <i class="fas fa-phone-square-alt fa-2x fa-fw"></i>
-        </td>
-        <td>
-            <span data-toggle="tooltip" data-placement="right" title="{{ message }}">
+            <a id="tel" class="d-inline-flex align-items-center btn btn-outline-primary">
                 <i class="fas fa-plus fa-sm"></i>{#
-                #}<bdo data-insert="6 13"></bdo>
-                <bdo data-insert="02"></bdo>
-                <bdo data-insert="83"></bdo>
-                <bdo data-insert="49"></bdo>
+                #}<bdo data-insert="13">&nbsp;</bdo>
+                <bdo data-insert="6">&nbsp;</bdo>
+                <bdo data-insert="02">&nbsp;</bdo>
+                <bdo data-insert="83">&nbsp;</bdo>
+                <bdo data-insert="49">&nbsp;</bdo>
                 <bdo data-insert="68"></bdo>
-            </span>
+            </a>
             <span class="sr-only">Afgeschermd</span>
         </td>
     </tr>
     <tr>
         <th scope="row">Telegram</th>
-        <td>
-            <i class="fab fa-telegram fa-2x fa-fw"></i>
-        </td>
-        <td>NautdeJong</td>
+
+        <td><i class="fab fa-telegram fa-2x fa-fw"></i>NautdeJong</td>
     </tr>
     <tr>
         <th scope="row">GitHub</th>
-        <td>
-            <i class="fab fa-github fa-2x fa-fw"></i>
-        </td>
-        <td>
-            <a href="https://github.com/andejong/" target="_blank" class="btn btn-outline-primary">
+
+        <td><i class="fab fa-github fa-2x fa-fw"></i>
+            <a href="https://github.com/andejong/" class="btn btn-outline-primary" target="_blank">
                 andejong{#
                 #}<i class="fas fa-external-link-alt fa-sm ml-1"></i>{#
             #}</a>
