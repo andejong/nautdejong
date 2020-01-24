@@ -136,16 +136,6 @@ $card-border-color: transparentize(black, .9);
 $card-cap-bg:       $light;
 $card-group-margin: $grid-gutter-width * .25;
 
-/* Tooltips */
-$tooltip-bg:        $danger;
-$tooltip-color:     white;
-$tooltip-opacity:   1;
-
-/* Badges */
-$badge-font-size:       $font-size-base;
-$badge-padding-y:       $spacer * .3;
-$badge-border-radius:   0;
-
 /* Progress bars */
 $progress-height:               $spacer * 1.5;
 $progress-bg:                   transparentize(black, .9);

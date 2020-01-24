@@ -28,7 +28,11 @@ button:focus,.btn:focus {
 	}
 
 	td {
-        vertical-align:	middle;
+		vertical-align:	middle;
+		
+		> * {
+			vertical-align:	inherit;
+		}
 	}
 }
 
@@ -89,7 +93,7 @@ article {
 .btn {
     letter-spacing:	.05rem;
 
-    &:not([href]) {
+	&-outline-primary:not([href]) {
         color:  $primary;
 
         &:hover {

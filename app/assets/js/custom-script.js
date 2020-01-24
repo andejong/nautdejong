@@ -1,8 +1,7 @@
 /* Custom script */
 $(document).ready(function() {
-    $('[data-toggle="tooltip"]').tooltip();
-    $('#email').click(function email() {
-        let inserts = $('#email > bdo')
+    $('#mail').click(function email() {
+        let inserts = $('#mail > bdo')
             .map(function() {
                 let insert = $(this)
                     .attr('data-insert')
@@ -13,11 +12,10 @@ $(document).ready(function() {
             })
             .toArray()
             .join('@');
-        console.log(inserts);
         $(this).attr('href', 'mailto:' + inserts);
     });
     $('#tel').click(function tel() {
-        let inserts = $('#email > bdo')
+        let inserts = $('#tel > bdo')
             .map(function() {
                 let insert = $(this)
                     .attr('data-insert')
@@ -26,8 +24,8 @@ $(document).ready(function() {
                     .join('');
                 return insert;
             })
-            .toArray();
-        console.log(inserts);
+            .toArray()
+            .join('');
         $(this).attr('href', 'tel:00' + inserts);
     });
     $('[role="progressbar"]').css('width', function() {
