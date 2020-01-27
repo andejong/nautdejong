@@ -15,8 +15,14 @@ button:focus,.btn:focus {
 	-webkit-appearance:	none;
 }
 
+.mw-mcontent {
+	max-width:	max-content;
+}
+
 /* Tables */
 .table {
+	margin-bottom:	0;
+	
 	caption {
 		caption-side:	top;
 	}

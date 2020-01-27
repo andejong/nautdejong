@@ -55,7 +55,7 @@
 				<th scope="row">Javascript</th>
 				<td class="w-100">
 					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 				</td>
 			</tr>
@@ -77,7 +77,7 @@
 				</td>
 			</tr>
 			<tr>
-				<th scope="row">Wordpress</th>
+				<th scope="row">WordPress</th>
 				<td class="w-100">
 					<div class="progress">
 						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
@@ -97,6 +97,14 @@
 				<td class="w-100">
 					<div class="progress">
 						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">jQuery</th>
+				<td class="w-100">
+					<div class="progress">
+						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 				</td>
 			</tr>
@@ -158,7 +166,7 @@
 			<span class="fa-li">
 				<i class="far fa-check-square"></i>
 			</span>
-			Visual Studio Code
+			WooCommerce
 		</li>
 	</ul>
 </div>

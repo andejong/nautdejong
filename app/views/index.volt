@@ -77,6 +77,7 @@
         <i class="fab fa-linux fa-fw"></i>
     </div>
 </section>
+
 </footer>
 
 {{ assets.outputJs('footer') }}

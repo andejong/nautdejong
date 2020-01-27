@@ -1,19 +1,21 @@
 <article class="mb-6">
 
-<h1>Naut de Jong</h1>
+<h1>Welkom</h1>
 <p class="lead">
-    Welkom op de voorpagina.
-    Dit is een korte inleidende tekst.
-    Drie regels moet voldoende zijn.
+    Mijn naam is Naut de Jong.
+    Welkom op mijn website.
 </p>
 <p>
-    Nu komt een normale tekst.
-    In deze tekst praat ik in het kort over mijzelf.
-    Drie regels is waarschijnlijk te kort,
-    vandaar dat het er ook veel meer dan drie zijn.
-    Kijk maar het is bijna twee keer zo veel.
+    Deze website heb ik gemaakt om  mijn vaardigheden als webdeveloper vast te leggen,
+    en fungeert tevens als visitekaartje.
 </p>
-<p>Dit is dus de tweede alinea.</p>
+<p>
+    Op dit moment ben ik op zoek naar een nieuwe werkgever.
+    Bent u ge&iuml;nteresseerd?
+    Neem dan
+    <a href="/contact/">contact</a>
+    op!
+</p>
 
 </article>
 <section class="card-deck mx-sm-n4 mb-6">
@@ -23,13 +25,10 @@
         <h2 class="card-title">Vaardigheden</h2>
     </div>
     <div class="card-body">
-        <p class="card-text">
-            This is a longer card with supporting text below as a natural lead-in to additional content.
-            This content is a little bit longer.
-        </p>
+        <p class="card-text">Hier kunt u lezen over mijn vaardigheden als webdeveloper.</p>
     </div>
     <div class="card-footer">
-        <a href="/vaardigheden/" class="btn btn-primary btn-lg btn-block stretched-link">Lees meer</a>
+        <a href="/vaardigheden/" class="btn btn-primary btn-lg btn-block stretched-link">Bekijk vaardigheden</a>
     </div>
 </div>
 <div class="card">
@@ -37,13 +36,10 @@
         <h2 class="card-title">Portfolio</h2>
     </div>
     <div class="card-body">
-        <p class="card-text">
-            This is a longer card with supporting text below as a natural lead-in to additional content.
-            This content is a little bit longer.
-        </p>
+        <p class="card-text">Op deze pagina staat mijn portfolio.</p>
     </div>
     <div class="card-footer">
-        <a href="/portfolio/" class="btn btn-primary btn-lg btn-block stretched-link">Bekijk mijn portfolio</a>
+        <a href="/portfolio/" class="btn btn-primary btn-lg btn-block stretched-link">Ga naar mijn portfolio</a>
     </div>
 </div>
 <div class="card">
@@ -51,10 +47,7 @@
         <h2 class="card-title">Contact</h2>
     </div>
     <div class="card-body">
-        <p class="card-text">
-            This is a longer card with supporting text below as a natural lead-in to additional content.
-            This content is a little bit longer.
-        </p>
+        <p class="card-text">Mijn contactgegevens kunt u op deze pagina vinden.</p>
     </div>
     <div class="card-footer">
         <a href="/contact/" class="btn btn-primary btn-lg btn-block stretched-link">Neem contact op</a>

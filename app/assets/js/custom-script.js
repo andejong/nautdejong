@@ -1,5 +1,5 @@
 /* Custom script */
-$(document).ready(function() {
+$(function() {
     $('#mail').click(function email() {
         let inserts = $('#mail > bdo')
             .map(function() {
