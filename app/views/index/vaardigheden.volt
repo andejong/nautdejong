@@ -17,6 +17,7 @@
 					<div class="progress">
 						<div class="progress-bar progress-" style="width: 0%;" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+                    <span class="sr-only">100%</span>
 				</td>
 			</tr>
 			<tr>
@@ -25,6 +26,7 @@
 					<div class="progress">
 						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+                    <span class="sr-only">100%</span>
 				</td>
 			</tr>
 			<tr>
@@ -33,6 +35,7 @@
 					<div class="progress">
 						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+                    <span class="sr-only">100%</span>
 				</td>
 			</tr>
 			<tr>
@@ -41,6 +44,7 @@
 					<div class="progress">
 						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+                    <span class="sr-only">90%</span>
 				</td>
 			</tr>
 			<tr>
@@ -49,6 +53,7 @@
 					<div class="progress">
 						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+                    <span class="sr-only">60%</span>
 				</td>
 			</tr>
 			<tr>
@@ -57,6 +62,7 @@
 					<div class="progress">
 						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+                    <span class="sr-only">50%</span>
 				</td>
 			</tr>
 		</tbody>
@@ -74,6 +80,7 @@
 					<div class="progress">
 						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+                    <span class="sr-only">100%</span>
 				</td>
 			</tr>
 			<tr>
@@ -82,22 +89,25 @@
 					<div class="progress">
 						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+                    <span class="sr-only">90%</span>
+				</td>
+			</tr>
+            <tr>
+				<th scope="row">Phalcon</th>
+				<td class="w-100">
+					<div class="progress">
+						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+                    <span class="sr-only">70%</span>
 				</td>
 			</tr>
 			<tr>
 				<th scope="row">Vuetify</th>
 				<td class="w-100">
 					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<th scope="row">Phalcon</th>
-				<td class="w-100">
-					<div class="progress">
 						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+                    <span class="sr-only">60%</span>
 				</td>
 			</tr>
 			<tr>
@@ -106,6 +116,7 @@
 					<div class="progress">
 						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+                    <span class="sr-only">50%</span>
 				</td>
 			</tr>
 		</tbody>
