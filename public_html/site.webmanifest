@@ -14,5 +14,15 @@
         }
     ],
     "theme_color": "#ffffff",
-    "background_color": "#ffffff"
+    "background_color": "#ffffff",
+    "main.css": "css/frontend.css",
+    "main.js": "js/0.frontend.js",
+    "main.js.map": "js/0.frontend.js.map",
+    "runtime.js": "js/frontend.js",
+    "runtime.js.map": "js/frontend.js.map",
+    "vendor.js": "js/2.frontend.js",
+    "vendor.js.map": "js/2.frontend.js.map",
+    "font/index.scss": "font/fa-solid-900-f6121be597a72928f54e7ab5b95512a1.woff2",
+    "index.html": "index.html",
+    "js/2.frontend.js.LICENSE": "js/2.frontend.js.LICENSE"
 }

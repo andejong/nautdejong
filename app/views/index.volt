@@ -60,7 +60,7 @@
 </main>
 <footer class="container">
 
-<hr class="mt-0 mx-sm-n4" />
+<hr class="mt-0 mx-sm-n3" />
 <section class="d-flex flex-column flex-sm-row align-items-center justify-content-between mb-3 text-center">
     <small class="order-sm-last">
         Hosting:
@@ -71,6 +71,7 @@
         <i class="fas fa-grip-lines-vertical fa-sm"></i>
         2020
         <i class="far fa-copyright fa-sm"></i>
+        <span class="sr-only">Copyleft</span>
         Naut de Jong
     </small>
     <div class="text-muted">
