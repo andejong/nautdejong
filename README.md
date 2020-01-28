@@ -98,4 +98,7 @@ $ npm run build
 ``` bash
 $ bin/assets.sh
 ```
-3. Copy the contents of [manifest.json](/dist/manifest.json) into [site.webmanifest](site.webmanifest) after the "background" entry. Seperate with a comma
+3. Copy the contents of [manifest.json](/dist/manifest.json) into [site.webmanifest](site.webmanifest) after the "background" entry.
+Seperate with a comma.
+If there are already entries,
+replace them.
