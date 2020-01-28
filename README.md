@@ -91,7 +91,6 @@ While logged into the Docker environment, use the following commands:
 ``` bash
 $ npm run build
 ```
-
 2. Run the assets bash script to copy into (public_html/)
 ``` bash
 $ bin/assets.sh
