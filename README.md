@@ -82,7 +82,7 @@ Styles and scripts are served by Webpack from <http://nautdejong.local.betaserve
 When you modify a Javascript or Sass file while the watcher is running,
 Webpack will reload the webpage automatically and apply the changes.
 To exit the watcher use <kbd>Ctrl</kbd> + <kbd>C</kbd>.
-You may need to set permissions for the (cache/) folder using `chmod 755 cache/`.
+You may need to set permissions for the [cache](/cache/) folder using `chmod 755 cache/`.
 
 ### Preparing for production
 While logged into the Docker environment, use the following commands:
@@ -91,7 +91,7 @@ While logged into the Docker environment, use the following commands:
 ``` bash
 $ npm run build
 ```
-2. Run the assets bash script to copy into (public_html/)
+2. Run the assets bash script to copy into [public_html](/public_html/)
 ``` bash
 $ bin/assets.sh
 ```
