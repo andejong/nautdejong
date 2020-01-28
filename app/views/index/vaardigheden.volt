@@ -167,7 +167,19 @@
 				<i class="far fa-check-square"></i>
 			</span>
 			WooCommerce
-		</li>
+        </li>
+        <li>
+			<span class="fa-li">
+				<i class="far fa-check-square"></i>
+			</span>
+			YoastSEO
+        </li>
+        <li>
+			<span class="fa-li">
+				<i class="far fa-check-square"></i>
+			</span>
+			Wordfence
+        </li>
 	</ul>
 </div>
 <div class="col">
