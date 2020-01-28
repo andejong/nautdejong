@@ -99,7 +99,7 @@ $ npm run build
 $ bin/assets.sh
 ```
 3. Copy the contents of [manifest.json](/dist/manifest.json) into [site.webmanifest](site.webmanifest) by following these instructions:
-    * Copy the contents from  [manifest.json](/dist/manifest.json) between the opening and closing <kbd>{</kbd> brackets <kbd>}</kbd>
+    * Copy the contents from  [manifest.json](/dist/manifest.json) between the opening <kbd>{</kbd> and closing <kbd>}</kbd> brackets
     * Paste from clipboard after the "background" entry
     * Seperate with a comma <kbd>,</kbd>
     * If these entries already exist,
