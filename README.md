@@ -34,7 +34,7 @@ $ npm install
 
 ### Using Docker
 The Docker environment in this project uses an installation of [Alpine Linux](https://alpinelinux.org/).
-Here are some useful commands to interact with Docker and the Alpine Linux environment.
+Here are some useful commands to interact with Docker and the Alpine Linux environment:
 ``` bash
 # Exit the bash shell
 $ exit
@@ -77,8 +77,8 @@ $ cd nautdejong
 ``` bash
 $ npm run dev
 ```
-The website is now available to view at <nautdejong.local.betaserver.nl>.
-Styles and scripts are served by Webpack from <nautdejong.local.betaserver.nl:8081>.
+The website is now available to view at <http://nautdejong.local.betaserver.nl/>.
+Styles and scripts are served by Webpack from <http://nautdejong.local.betaserver.nl:8081/>.
 When you modify a Javascript or Sass file while the watcher is running,
 Webpack will reload the webpage automatically and apply the changes.
 To exit the watcher use <kbd>Ctrl</kbd> + <kbd>C</kbd>.
