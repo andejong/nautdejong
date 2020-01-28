@@ -50,6 +50,9 @@ $ docker-compose down
 # In this project we make use of two services: web & php
 # If you'd like to rebuild an individual service, use this command
 $ docker-compose build <SERVICE>
+
+# To read logs, use this command
+$ docker-compose logs -f <SERVICE>
 ```
 
 ## Run
