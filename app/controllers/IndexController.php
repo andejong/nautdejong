@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 class IndexController extends ControllerBase
 {
-    public function indexAction() {
+    public function voorpaginaAction() {
         $this->view->description    = "Website van Naut de Jong";
     }
 

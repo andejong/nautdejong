@@ -58,9 +58,9 @@
 <article>
 
 <p>
-    Bekijk de website met
-    <a href="https://github.com/andejong/nautdejong" target="_blank">deze link</a>
-    ook op GitHub.
+    Bekijk de website
+    <a href="https://github.com/andejong/nautdejong" target="_blank">hier</a>
+    op GitHub.
 </p>
 
 </article>

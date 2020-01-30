@@ -15,9 +15,15 @@ button:focus,.btn:focus {
 	-webkit-appearance:	none;
 }
 
-.row {
-    margin-top:     - $grid-gutter-width * .5;
-    margin-bottom:   -$grid-gutter-width * .5;
+/* Layout */
+.container {
+    padding-right:  $grid-gutter-width;
+    padding-left:   $grid-gutter-width;
+}
+
+.row:not(.no-gutters) {
+    margin-top:     -$grid-gutter-width * .5;
+    margin-bottom:  -$grid-gutter-width * .5;
 
     .col, [class*="col-"] {
         padding-top:    $grid-gutter-width * .5;
@@ -34,6 +40,8 @@ button:focus,.btn:focus {
 	margin-bottom:	0;
 
 	caption {
+        margin-bottom:  $headings-margin-bottom;
+        padding:        0;
 		caption-side:	top;
 	}
 
@@ -82,10 +90,6 @@ article {
 }
 
 .fa {
-    &-copyright {
-        transform:  scale(-1, 1);
-    }
-
     &-colourize .fa {
         &-envelope-square {
             color:	color("yellow")
@@ -119,7 +123,7 @@ article {
 
 	&.stretched-link {
 		&:hover::after {
-			background-color:	transparentize(black, .9);
+			background-color:	$darken_9;
 		}
 
 		&::after {
@@ -130,23 +134,6 @@ article {
 			transition:		$btn-transition;
 		}
 	}
-}
-
-/* Layout */
-body {
-	display:			flex;
-	flex-direction:		column;
-	justify-content:	space-between;
-	min-height:			100vh;
-
-	main {
-		flex-grow:	1;
-	}
-}
-
-.container {
-	padding-right:	$grid-gutter-width;
-	padding-left:	$grid-gutter-width;
 }
 
 /* Navigation */
@@ -179,17 +166,17 @@ body {
 		border-radius:	$border-radius-sm;
 
 		&.active {
-			border-color:		transparentize(white, .9);
-			background-color:	transparentize(white, .9);
+			border-color:		$lighten_9;
+			background-color:	$lighten_9;
 		}
 
 		&:hover {
-			border-color:		transparentize(white, .9);
-			background-color:	transparentize(white, .8);
+			border-color:		$lighten_9;
+			background-color:	$lighten_8;
 		}
 
 		&:focus {
-			background-color:	transparentize(white, .7);
+			background-color:	$lighten_7;
 			color:				white;
 		}
 	}

@@ -10,61 +10,26 @@
 		<caption>
 			<h2 class="mb-0 p sans-serif">Programmeer- &amp; opmaaktalen</h2>
 		</caption>
+		{% set skills = [
+			'HTML'			: '100',
+			'CSS'			: '100',
+			'Sass'			: '100',
+			'Volt'			: '90',
+			'PHP'			: '60',
+			'Javascript'	: '50'
+		] %}
 		<tbody>
-			<tr>
-				<th scope="row">HTML</abbr></th>
-				<td class="w-100">
-					<div class="progress">
-						<div class="progress-bar progress-" style="width: 0%;" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-                    <span class="sr-only">100%</span>
-				</td>
-			</tr>
-			<tr>
-				<th scope="row">CSS</th>
-				<td class="w-100">
-					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-                    <span class="sr-only">100%</span>
-				</td>
-			</tr>
-			<tr>
-				<th scope="row">Sass</th>
-				<td class="w-100">
-					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-                    <span class="sr-only">100%</span>
-				</td>
-			</tr>
-			<tr>
-				<th scope="row">Volt</th>
-				<td class="w-100">
-					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-                    <span class="sr-only">90%</span>
-				</td>
-			</tr>
-			<tr>
-				<th scope="row">PHP</th>
-				<td class="w-100">
-					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-                    <span class="sr-only">60%</span>
-				</td>
-			</tr>
-			<tr>
-				<th scope="row">Javascript</th>
-				<td class="w-100">
-					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-                    <span class="sr-only">50%</span>
-				</td>
-			</tr>
+			{% for skill, progress in skills %}
+				<tr>
+					<th scope="row">{{ skill }}</abbr></th>
+					<td class="w-100">
+						<div class="progress">
+							<div class="progress-bar progress-" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<span class="sr-only">{{ progress }}%</span>
+					</td>
+				</tr>
+			{% endfor %}
 		</tbody>
 	</table>
 </div>
@@ -73,124 +38,54 @@
 		<caption>
 			<h2 class="mb-0 p sans-serif">Frameworks/CMS</h2>
 		</caption>
+		{% set frameworks = [
+			'Bootstrap'	: '100',
+			'WordPress'	: '90',
+			'Phalcon'	: '70',
+			'Vuetify'	: '60',
+			'jQuery'	: '50'
+		] %}
 		<tbody>
-			<tr>
-				<th scope="row">Bootstrap</th>
-				<td class="w-100">
-					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-                    <span class="sr-only">100%</span>
-				</td>
-			</tr>
-			<tr>
-				<th scope="row">WordPress</th>
-				<td class="w-100">
-					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-                    <span class="sr-only">90%</span>
-				</td>
-			</tr>
-            <tr>
-				<th scope="row">Phalcon</th>
-				<td class="w-100">
-					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-                    <span class="sr-only">70%</span>
-				</td>
-			</tr>
-			<tr>
-				<th scope="row">Vuetify</th>
-				<td class="w-100">
-					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-                    <span class="sr-only">60%</span>
-				</td>
-			</tr>
-			<tr>
-				<th scope="row">jQuery</th>
-				<td class="w-100">
-					<div class="progress">
-						<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-                    <span class="sr-only">50%</span>
-				</td>
-			</tr>
+			{% for framework, progress in frameworks %}
+				<tr>
+					<th scope="row">{{ framework }}</abbr></th>
+					<td class="w-100">
+						<div class="progress">
+							<div class="progress-bar progress-" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<span class="sr-only">{{ progress }}%</span>
+					</td>
+				</tr>
+			{% endfor %}
 		</tbody>
 	</table>
 </div>
 <div class="col">
 	<h2 class="p sans-serif text-muted">Applicaties</h2>
+	{% set apps = [
+		'Docker',
+		'Git',
+		'Npm',
+		'Webpack',
+		'Grunt',
+		'PhpMyAdmin',
+		'DirectAdmin',
+		'Icinga',
+		'WooCommerce',
+		'YoastSEO',
+		'Wordfence'
+	] %}
 	<ul class="fa-ul">
-		<li>
-			<span class="fa-li">
-				<i class="far fa-check-square"></i>
-			</span>
-			Docker
-		</li>
-		<li>
-			<span class="fa-li">
-				<i class="far fa-check-square"></i>
-			</span>
-			Git
-		</li>
-		<li>
-			<span class="fa-li">
-				<i class="far fa-check-square"></i>
-			</span>
-			Npm
-		</li>
-		<li>
-			<span class="fa-li">
-				<i class="far fa-check-square"></i>
-			</span>
-			Webpack
-		</li>
-		<li>
-			<span class="fa-li">
-				<i class="far fa-check-square"></i>
-			</span>
-			Grunt
-		</li>
-		<li>
-			<span class="fa-li">
-				<i class="far fa-check-square"></i>
-			</span>
-			PhpMyAdmin
-		</li>
-		<li>
-			<span class="fa-li">
-				<i class="far fa-check-square"></i>
-			</span>
-			DirectAdmin
-		</li>
-		<li>
-			<span class="fa-li">
-				<i class="far fa-check-square"></i>
-			</span>
-			Icinga
-		</li>
-		<li>
-			<span class="fa-li">
-				<i class="far fa-check-square"></i>
-			</span>
-			WooCommerce
-        </li>
-        <li>
-			<span class="fa-li">
-				<i class="far fa-check-square"></i>
-			</span>
-			YoastSEO
-        </li>
-        <li>
-			<span class="fa-li">
-				<i class="far fa-check-square"></i>
-			</span>
-			Wordfence
-        </li>
+
+		{% for app in apps %}
+			<li>
+				<span class="fa-li">
+					<i class="far fa-check-square"></i>
+				</span>
+				{{ app }}
+			</li>
+		{% endfor %}
+
 	</ul>
 </div>
 <div class="col">
@@ -212,7 +107,7 @@
 			<span class="fa-li">
 				<i class="fab fa-linux"></i>
 			</span>
-			GNU/Linux (Debian, Arch, Ubuntu, Void)
+			GNU/Linux (Debian, Arch, Void)
 		</li>
 	</ul>
 </div>
