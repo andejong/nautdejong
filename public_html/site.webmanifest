@@ -23,6 +23,6 @@
     "vendor.js": "js/2.frontend.js",
     "vendor.js.map": "js/2.frontend.js.map",
     "font/index.scss": "font/fa-solid-900-f6121be597a72928f54e7ab5b95512a1.woff2",
-    "index.html": "index.html",
+    "index.php": "index.php",
     "js/2.frontend.js.LICENSE": "js/2.frontend.js.LICENSE"
 }
