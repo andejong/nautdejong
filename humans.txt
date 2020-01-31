@@ -1,0 +1,11 @@
+/* TEAM */
+Developer: Naut de Jong
+Site: Personal website
+GitHub: @andejong
+Location: Heemskerk, The Netherlands
+
+/* SITE */
+Language: Dutch
+Doctype: HTML5
+Standards: XHTML5, CSS3, ES6, PHP7
+Components: Bootstrap, Phalcon
