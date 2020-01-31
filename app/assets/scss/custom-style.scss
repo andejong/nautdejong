@@ -123,7 +123,7 @@ article {
 
 	&.stretched-link {
 		&:hover::after {
-			background-color:	$darken_9;
+			background-color:	transparentize(black, .9);
 		}
 
 		&::after {
@@ -166,17 +166,17 @@ article {
 		border-radius:	$border-radius-sm;
 
 		&.active {
-			border-color:		$lighten_9;
-			background-color:	$lighten_9;
+			border-color:		transparentize(white, .9);
+			background-color:	transparentize(white, .9);
 		}
 
 		&:hover {
-			border-color:		$lighten_9;
-			background-color:	$lighten_8;
+			border-color:		transparentize(white, .9);
+			background-color:	transparentize(white, .8);
 		}
 
 		&:focus {
-			background-color:	$lighten_7;
+			background-color:	transparentize(white, .7);
 			color:				white;
 		}
 	}

@@ -15,14 +15,6 @@ $blue_dark:         #140494;
 $blue_very-dark:    #02000e;
 $blue_greyish:      #b7b6ba;
 $red_dark:          #941404;
-$lighten_2:         transparentize(white, .2);
-$lighten_3:         transparentize(white, .3);
-$lighten_7:         transparentize(white, .7);
-$lighten_8:         transparentize(white, .8);
-$lighten_9:         transparentize(white, .9);
-$darken_1:          transparentize(black, .1);
-$darken_7:          transparentize(black, .7);
-$darken_9:          transparentize(black, .9);
 
 $colors: (
     "blue_very-pale":   $blue_very-pale,
@@ -121,7 +113,7 @@ $lead-font-weight:  500;
 $small-font-size:   80%;
 $large-font-size:   112.5%;
 
-$text-muted:    $darken_7;
+$text-muted:    transparentize(black, .7);
 
 $hr-color:  black;
 
@@ -132,8 +124,8 @@ $btn-padding-x: $spacer;
 $navbar-padding-x:          $grid-gutter-width * .5;
 $navbar-padding-y:          0;
 $navbar-nav-link-padding-x: $navbar-padding-x;
-$navbar-dark-color:         $lighten_3;
-$navbar-dark-hover-color:   $lighten_2;
+$navbar-dark-color:         transparentize(white, .3);
+$navbar-dark-hover-color:   transparentize(white, .2);
 $navbar-dark-active-color:  white;
 
 $nav-link-padding-x:    $navbar-padding-x;
@@ -141,20 +133,20 @@ $nav-link-padding-y:    $navbar-padding-x * 2;
 
 /* Cards */
 $card-spacer-y:     $spacer * 1.125;
-$card-border-color: $darken_9;
+$card-border-color: transparentize(black, .9);
 $card-cap-bg:       $light;
 $card-group-margin: $grid-gutter-width * .25;
 
 /* Progress bars */
 $progress-height:               $spacer * 1.5;
-$progress-bg:                   $darken_9;
+$progress-bg:                   transparentize(black, .9);
 $progress-bar-transition:       width 1s ease;
 
 /* List group */
 $list-group-item-padding-x:     $spacer * 1;
 $list-group-item-padding-y:     $spacer * .5;
-$list-group-border-color:       $darken_9;
+$list-group-border-color:       transparentize(black, .9);
 $list-group-hover-bg:           $light;
 $list-group-action-color:       $link-color;
 $list-group-action-hover-color: $link-hover-color;
-$list-group-action-active-bg:   $darken_9;
+$list-group-action-active-bg:   transparentize(black, .9);

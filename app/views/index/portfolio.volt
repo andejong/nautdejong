@@ -8,7 +8,7 @@
 </p>
 
 </article>
-<section class="row row-cols-1 row row-cols-sm-3">
+<section class="row row-cols-1 row-cols-sm-3">
 
 <div class="col">
     <h2 class="p sans-serif text-muted">Bootstrap</h2>
