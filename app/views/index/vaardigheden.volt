@@ -24,9 +24,9 @@
 					<th scope="row">{{ skill }}</abbr></th>
 					<td class="w-100">
 						<div class="progress">
-							<div class="progress-bar progress-" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
+							<div class="progress-bar rounded" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
-						<span class="sr-only">{{ progress }}%</span>
+						<span class="sr-only">{{ progress }}&percnt;</span>
 					</td>
 				</tr>
 			{% endfor %}
@@ -51,7 +51,7 @@
 					<th scope="row">{{ framework }}</abbr></th>
 					<td class="w-100">
 						<div class="progress">
-							<div class="progress-bar progress-" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
+							<div class="progress-bar rounded" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
 						<span class="sr-only">{{ progress }}%</span>
 					</td>
@@ -76,16 +76,14 @@
 		'Wordfence'
 	] %}
 	<ul class="fa-ul">
-
 		{% for app in apps %}
 			<li>
 				<span class="fa-li">
-					<i class="far fa-check-square"></i>
+					<i class="fas fa-check-square"></i>
 				</span>
 				{{ app }}
 			</li>
 		{% endfor %}
-
 	</ul>
 </div>
 <div class="col">

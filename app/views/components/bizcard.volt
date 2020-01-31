@@ -1,5 +1,3 @@
-
-
 <div class="card mw-mcontent">
     <div class="card-body">
         <table class="table table-sm table-responsive table-borderless text-nowrap fa-colourize">
