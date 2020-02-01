@@ -2,11 +2,11 @@
 
 <h1>Welkom</h1>
 <p class="lead">
-    Mijn naam is Naut de Jong.
+    Mijn naam is Naut de Jong en ik ben webdeveloper.
     Welkom op mijn website.
 </p>
 <p>
-    Deze website heb ik gemaakt om  mijn vaardigheden als webdeveloper vast te leggen,
+    Deze website heb ik gemaakt om mijn vaardigheden als webdeveloper vast te leggen,
     en fungeert tevens als visitekaartje.
 </p>
 <p>
@@ -25,7 +25,7 @@
         <h2 class="card-title">Vaardigheden</h2>
     </div>
     <div class="card-body">
-        <p class="card-text">Hier kunt u lezen over mijn vaardigheden als webdeveloper.</p>
+        <p class="card-text">Hier kunt u een overzicht van mijn vaardigheden als webdeveloper zien.</p>
     </div>
     <div class="card-footer">
         <a href="/vaardigheden/" class="btn btn-primary btn-lg btn-block stretched-link">Bekijk vaardigheden</a>
