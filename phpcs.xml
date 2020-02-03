@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<ruleset name="Naut de Jong website">
+    <description>Naut de Jong website coding standards</description>
+
+    <!-- Show colors in console -->
+    <arg value="-colors"/>
+
+    <!-- Show sniff codes in all reports -->
+    <arg value="s"/>
+
+    <!-- Use PSR-2 as a base -->
+    <rule ref="PSR2"/>
+    <file>app/controllers</file>
+</ruleset>

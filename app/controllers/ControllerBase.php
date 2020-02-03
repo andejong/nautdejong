@@ -1,11 +1,15 @@
 <?php
 
 declare(strict_types=1);
+
+namespace app\controllers;
+
 use Phalcon\Mvc\Controller;
 
 class ControllerBase extends Controller
 {
-    public function initialize() {
+    public function initialize()
+    {
         $styles = $this
             ->assets
             ->collection('header')
@@ -20,7 +24,7 @@ class ControllerBase extends Controller
             ->addJs('/js/main.frontend.js')
         ;
 
-        if($this->config->application_env === 'development') {
+        if ($this->config->application_env === 'development') {
             $styles->setPrefix('http://'.$_SERVER['HTTP_HOST'].':8081');
             $scripts->setPrefix('http://'.$_SERVER['HTTP_HOST'].':8081');
         }
