@@ -7,5 +7,5 @@ Location: Heemskerk, The Netherlands
 /* SITE */
 Language: Dutch
 Doctype: HTML5
-Standards: XHTML5, CSS3, ES6, PHP7
+Standards: XHTML5, CSS3, ES6, PHP7, PSR12
 Components: Bootstrap, Phalcon

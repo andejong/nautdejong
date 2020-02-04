@@ -46,6 +46,7 @@
 <div class="col">
     <h2 class="p sans-serif text-muted">Wordpress</h2>
     {% set wpProjects = [
+        'Salmay Communicatie'           : '#',
         'AC Borst Bouw'                 : 'https://www.acborst.nl/',
         'Waardse Senioren in Beweging'  : 'https://www.wsib.nl/'
     ] %}

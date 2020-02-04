@@ -21,7 +21,7 @@
 		<tbody>
 			{% for skill, progress in skills %}
 				<tr>
-					<th scope="row">{{ skill }}</abbr></th>
+					<th scope="row">{{ skill }}</th>
 					<td class="w-100">
 						<div class="progress">
 							<div class="progress-bar rounded" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
@@ -42,13 +42,13 @@
 			'Bootstrap'	: '100',
 			'WordPress'	: '90',
 			'Phalcon'	: '70',
-			'Vuetify'	: '60',
+			'Vue.js'	: '60',
 			'jQuery'	: '50'
 		] %}
 		<tbody>
 			{% for framework, progress in frameworks %}
 				<tr>
-					<th scope="row">{{ framework }}</abbr></th>
+					<th scope="row">{{ framework }}</th>
 					<td class="w-100">
 						<div class="progress">
 							<div class="progress-bar rounded" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
@@ -66,8 +66,10 @@
 		'Docker',
 		'Git',
 		'Npm',
+        'Composer',
 		'Webpack',
 		'Grunt',
+        'Nuxt.js',
 		'PhpMyAdmin',
 		'DirectAdmin',
 		'Icinga',
