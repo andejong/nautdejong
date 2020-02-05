@@ -1,8 +1,19 @@
-<section>
+<article class="mb-6">
 
 <h1>Vaardigheden</h1>
+<p>
+	Met alle leer en werkervaring in front-end development heb ik mij het HTML en CSS meester gemaakt.
+    Meer recentelijk kwam ik voor het eerst in aanraking met het veelgebruikte Vue.js,
+	ook heb ik veel gewerkt met het PHP framework Phalcon.
+</p>
+<p>
+    Met WordPress heb ik door mijn tijd bij Gorter Advisie ook veel ervaring;
+    behalve dat wij daarmee websites hebben opgezet, beheerd en onderhouden,
+    hebben we deze ook geoptimaliseerd met plugins zoals YoastSEO en beveiligd met Wordfence.
+    Daarnaast heb ik ervaring met WooCommerce en hebben wij er zelfs een ticketsysteem mee gebouwd.
+</p>
 
-</section>
+</article>
 <section class="row row-cols-1 row-cols-sm-2">
 
 <div class="col">
@@ -70,6 +81,7 @@
 		'Webpack',
 		'Grunt',
         'Nuxt.js',
+		'MariaDB',
 		'PhpMyAdmin',
 		'DirectAdmin',
 		'Icinga',
@@ -107,8 +119,30 @@
 			<span class="fa-li">
 				<i class="fab fa-linux"></i>
 			</span>
-			GNU/Linux (Debian, Arch, Void)
+			GNU&plus;Linux (Debian, Arch, Alpine, Void)
 		</li>
+	</ul>
+	<h2 class="p sans-serif text-muted">Ook ervaring met&hellip;</h2>
+	{% set used = [
+		'Apache',
+		'NGINX',
+		'MySQL',
+		'TYPO3',
+        'TypoScript',
+		'Windows Server',
+		'Citrix Workspace',
+		'Python',
+		'C'
+	] %}
+	<ul class="fa-ul">
+		{% for item in used %}
+			<li>
+				<span class="fa-li">
+					<i class="fas fa-check-square"></i>
+				</span>
+				{{ item }}
+			</li>
+		{% endfor %}
 	</ul>
 </div>
 

@@ -13,14 +13,16 @@
 <div class="col">
     <h2 class="p sans-serif text-muted">Bootstrap</h2>
     {% set bsProjects = [
-        'Stichting Oer-IJ'	                        : 'https://test.oerij.eu/',
-        'Beethoven Eten &amp; Drinken'	            : 'https://www.beethovenetenendrinken.nl/',
-        'HF Technology'	                            : 'https://www.hftechnology.nl/',
-        'De Tafelprinses'	                        : 'https://www.tafelprinses.nl/',
-        'Stichting Vrienden van het Kleurenorkest'  : 'https://www.stichtingvriendenvanhetkleurenorkest.nl/',
-        'Bob en de Blue Band'	                    : 'http://www.bobendeblueband.com/',
-        'TK Bewindvoering'	                        : 'http://www.tkbewindvoering.nl/',
-        'Vereniging Kennemer IJsbaan'               : 'https://www.vkij.nl/'
+        'Stichting Oer-IJ'	                            : 'https://test.oerij.eu/',
+        'Beethoven Eten &amp; Drinken'	                : 'https://www.beethovenetenendrinken.nl/',
+        'HF Technology'	                                : 'https://www.hftechnology.nl/',
+        'De Tafelprinses'	                            : 'https://www.tafelprinses.nl/',
+        'Stichting Vrienden van het Kleurenorkest'      : 'https://www.stichtingvriendenvanhetkleurenorkest.nl/',
+        'Bob en de Blue Band'	                        : 'http://www.bobendeblueband.com/',
+        'TK Bewindvoering'	                            : 'http://www.tkbewindvoering.nl/',
+        'Vereniging Kennemer IJsbaan'                   : 'https://www.vkij.nl/',
+        'Algemene Begraafplaats Heemstede'              : 'https://www.begraafplaatsheemstede.nl',
+        'Stichting Vrienden Kinderboederij Heemstede'   : 'https://kinderboerderij-heemstede.nl/'
     ] %}
     <ul class="list-group">
         {% for project, link in bsProjects %}
