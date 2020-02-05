@@ -35,9 +35,10 @@
 					<th scope="row">{{ skill }}</th>
 					<td class="w-100">
 						<div class="progress">
-							<div class="progress-bar rounded" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
+							<div class="progress-bar rounded" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100">
+								<span class="sr-only">{{ progress }}&percnt;</span>
+							</div>
 						</div>
-						<span class="sr-only">{{ progress }}&percnt;</span>
 					</td>
 				</tr>
 			{% endfor %}
@@ -62,9 +63,11 @@
 					<th scope="row">{{ framework }}</th>
 					<td class="w-100">
 						<div class="progress">
-							<div class="progress-bar rounded" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
+							<div class="progress-bar rounded" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100">
+								<span class="sr-only">{{ progress }}&percnt;</span>
+							</div>
+							
 						</div>
-						<span class="sr-only">{{ progress }}%</span>
 					</td>
 				</tr>
 			{% endfor %}

@@ -5,8 +5,8 @@
         <ul class="navbar-nav w-100">
             <li class="nav-item mr-sm-auto">
                 <a href="/" class="nav-link{% if request.getUri() is '/' %} active{% endif %}">
-                    <i class="fas fa-home"></i>
                     <span class="sr-only">Voorpagina</span>
+                    <i class="fas fa-home"></i>
                 </a>
             </li>
             <li class="nav-item">

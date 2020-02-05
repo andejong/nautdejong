@@ -6,8 +6,8 @@
                     <th scope="row">E-mailadres</th>
                     <td class="w-100">
                         <i class="fas fa-envelope-square fa-2x fa-fw mr-1"></i>
-                        <span class="sr-only">Afgeschermd</span>
                         <a id="mail" class="d-inline-flex align-items-center btn btn-outline-primary">
+                            <span class="sr-only">Afgeschermd</span>
                             <bdo data-insert="gnojedna"></bdo>{#
                             #}<i class="fas fa-at fa-sm"></i>{#
                             #}<bdo data-insert="ln.emoh-lrtc"></bdo>
@@ -18,8 +18,8 @@
                     <th scope="row">Telefoonnummer</th>
                     <td>
                         <i class="fas fa-phone-square-alt fa-2x fa-fw mr-1"></i>
-                        <span class="sr-only">Afgeschermd</span>
-                        <a id="tel" class="d-inline-flex align-items-center btn btn-outline-primary">
+                        <a id="tel" lass="d-inline-flex align-items-center btn btn-outline-primary">
+                            <span class="sr-only">Afgeschermd</span>
                             <i class="fas fa-plus fa-sm"></i>{#
                             #}<bdo data-insert="13">&nbsp;</bdo>
                             <bdo data-insert="6">&nbsp;</bdo>
