@@ -1,3 +1,6 @@
+# MacOS attribute file
+.DS_Store
+
 # Phalcon files
 .phalcon/
 
