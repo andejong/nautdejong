@@ -25,7 +25,7 @@ button:focus,.btn:focus {
     margin-top:     -$grid-gutter-width * .5;
     margin-bottom:  -$grid-gutter-width * .5;
 
-    .col, [class*="col-"] {
+    .col,[class*="col-"] {
         padding-top:    $grid-gutter-width * .5;
         padding-bottom: $grid-gutter-width * .5;
     }
@@ -54,7 +54,7 @@ button:focus,.btn:focus {
     td {
         vertical-align:	middle;
 
-        > * {
+        >* {
             vertical-align:	inherit;
         }
     }
@@ -214,7 +214,7 @@ article {
 }
 
 /* Anti-bot */
-bdo:before {
+bdo::before {
     content:		attr(data-insert);
     unicode-bidi:	inherit;
     direction:		rtl;
