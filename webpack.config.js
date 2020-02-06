@@ -3,8 +3,6 @@ const webpack = require('webpack');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const PreloadWebpackPlugin = require('preload-webpack-plugin');
-const CssUrlRelativePlugin = require('css-url-relative-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
 
 const IS_DEV = process.env.NODE_ENV === 'dev';
@@ -74,11 +72,7 @@ const config = {
                 : 'css/frontend.[contenthash].css',
             chunkFilename: 'css/frontend.css'
         }),
-        new webpack.HashedModuleIdsPlugin(),
-        new PreloadWebpackPlugin({
-            include: 'initial'
-        }),
-        new CssUrlRelativePlugin()
+        new webpack.HashedModuleIdsPlugin()
     ],
     devServer: {
         contentBase: path.join(__dirname, 'public_html'),
