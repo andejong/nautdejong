@@ -9,7 +9,7 @@ ul {
     margin-bottom:  1.25rem;
 }
 
-button:focus,.btn:focus {
+button:focus,.btn:focus,.btn:not(:disabled):not(.disabled):active:focus {
     outline:    0;
     box-shadow:	none;
 }
