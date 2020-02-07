@@ -41,7 +41,7 @@
         <h2 class="card-title">Portfolio</h2>
     </div>
     <div class="card-body">
-        <p class="card-text">Op deze pagina staat mijn portfolio.</p>
+        <p class="card-text">In mijn portfolio staat een overzicht van een aantal projecten waar ik aan gewerkt heb.</p>
     </div>
     <div class="card-footer">
         <a href="/portfolio/" class="btn btn-primary btn-lg btn-block stretched-link">Ga naar mijn portfolio</a>

@@ -7,10 +7,19 @@
     ook heb ik veel gewerkt met het PHP framework Phalcon.
 </p>
 <p>
-    Met WordPress heb ik door mijn tijd bij Gorter Advisie ook veel ervaring;
-    behalve dat wij daarmee websites hebben opgezet, beheerd en onderhouden,
+    Door mijn tijd bij Gorter Advisie heb ik met WordPress ook veel ervaring;
+    behalve dat wij daarmee websites hebben opgezet,
+    beheerd en onderhouden,
     hebben we deze ook geoptimaliseerd met plugins zoals YoastSEO en beveiligd met Wordfence.
     Daarnaast heb ik ervaring met WooCommerce en hebben wij er zelfs een ticketsysteem mee gebouwd.
+</p>
+<p>
+    Op dit moment doe ik op
+    <a href="https://www.codecademy.com/" target="_blank">
+        Codecademy{#
+        #}<i class="fas fa-external-link-alt fa-sm ml-1"></i>{#
+    #}</a>
+    een cursus PHP.
 </p>
 
 </article>
@@ -66,7 +75,6 @@
                             <div class="progress-bar rounded" style="width: 0%;" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100">
                                 <span class="sr-only">{{ progress }}&percnt;</span>
                             </div>
-
                         </div>
                     </td>
                 </tr>
