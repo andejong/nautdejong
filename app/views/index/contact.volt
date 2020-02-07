@@ -1,7 +1,7 @@
-<section class="mb-6">
+<article class="mb-6">
 
 <h1>Contact</h1>
-<p class="serif">Wilt u contact met mij opnemen? Dat kan hier.</p>
+<p>Wilt u contact met mij opnemen? Dat kan hier.</p>
 
-</section>
+</article>
 <section>{{ partial('components/bizcard')}}</section>

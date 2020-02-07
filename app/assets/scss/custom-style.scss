@@ -5,6 +5,10 @@
     --font-family-serif:		'Gelasio', #{inspect($font-family-serif)};
 }
 
+ul {
+    margin-bottom:  1.25rem;
+}
+
 button:focus,.btn:focus {
     outline:    0;
     box-shadow:	none;
@@ -46,17 +50,17 @@ button:focus,.btn:focus {
     }
 
     th {
-        min-width:      122px;
+        min-width:      122px;  // Widest in this project
         text-align:		right;
         vertical-align:	middle;
+
+        >* {
+            vertical-align: inherit;
+        }
     }
 
     td {
         vertical-align:	middle;
-
-        >* {
-            vertical-align:	inherit;
-        }
     }
 }
 
@@ -83,6 +87,7 @@ article {
 
 .serif {
     font-family:	var(--font-family-serif);
+    font-size:		105%;
 }
 
 .sans-serif {
@@ -184,10 +189,6 @@ article {
 
 /* Cards */
 .card {
-    &-header {
-        @include gradient-bg($light);
-    }
-
     &-title {
         margin-bottom: 0;
     }
@@ -195,10 +196,6 @@ article {
     &-text {
         font-family:	var(--font-family-serif);
         font-size:		105%;
-    }
-
-    &-footer {
-        @include gradient-bg($light);
     }
 }
 
