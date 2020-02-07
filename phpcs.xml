@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <ruleset name="Phalcon">
-    <description>Naut de Jong website coding standards adopted from Phalcon</description>
+    <description>Naut de Jong website coding standards modified from Phalcon</description>
     <arg value="-colors"/>
     <arg value="s"/>
     <arg value="p"/>

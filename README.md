@@ -23,7 +23,7 @@ $ docker-compose up -d
 ``` bash
 $ bin/login.sh
 ```
-7. Inside your Docker environment, navigate to the project's directory
+7. Inside your Docker environment, navigate to the project directory
 ``` bash
 $ cd nautdejong
 ```
@@ -44,7 +44,7 @@ $ exit
 $ docker ps
 
 # The following command stops the containers
-# You need to be in the project's folder to use the command
+# You need to be in the project folder to use the command
 $ docker-compose down
 
 # In this project we make use of two services: web & php
@@ -72,7 +72,7 @@ $ docker-compose up -d
 $ bin/login.sh
 ```
 4. Inside your Docker environment,
-navigate to the project's directory
+navigate to the project directory
 ``` bash
 $ cd nautdejong
 ```

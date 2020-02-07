@@ -3,9 +3,11 @@
         <table class="table table-sm table-responsive table-borderless text-nowrap fa-colourize">
             <tbody>
                 <tr>
-                    <th scope="row">E-mailadres</th>
+                    <th scope="row">
+                        E-mailadres
+                        <i class="fas fa-envelope-square fa-2x fa-fw ml-1"></i>
+                    </th>
                     <td class="w-100">
-                        <i class="fas fa-envelope-square fa-2x fa-fw mr-1"></i>
                         <a id="mail" class="d-inline-flex align-items-center btn btn-outline-primary">
                             <span class="sr-only">Afgeschermd</span>
                             <bdo data-insert="gnojedna"></bdo>{#
@@ -15,9 +17,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row">Telefoonnummer</th>
+                    <th scope="row">
+                        Telefoonnummer
+                        <i class="fas fa-phone-square-alt fa-2x fa-fw ml-1"></i>
+                    </th>
                     <td>
-                        <i class="fas fa-phone-square-alt fa-2x fa-fw mr-1"></i>
                         <a id="tel" class="d-inline-flex align-items-center btn btn-outline-primary">
                             <span class="sr-only">Afgeschermd</span>
                             <i class="fas fa-plus fa-sm"></i>{#
@@ -31,16 +35,18 @@
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row">Telegram</th>
-                    <td>
-                        <i class="fab fa-telegram fa-2x fa-fw mr-1"></i>
-                        NautdeJong
-                    </td>
+                    <th scope="row">
+                        Telegram
+                        <i class="fab fa-telegram fa-2x fa-fw ml-1"></i>
+                    </th>
+                    <td>NautdeJong</td>
                 </tr>
                 <tr>
-                    <th scope="row">GitHub</th>
+                    <th scope="row">
+                        GitHub
+                        <i class="fab fa-github fa-2x fa-fw ml-1"></i>
+                    </th>
                     <td>
-                        <i class="fab fa-github fa-2x fa-fw mr-1"></i>
                         <a href="https://github.com/andejong/" class="btn btn-outline-primary" target="_blank">
                             andejong{#
                             #}<i class="fas fa-external-link-alt fa-sm ml-1"></i>{#
