@@ -2,12 +2,8 @@
 
 $loader = new \Phalcon\Loader();
 
-
-
-
-$loader->registerDirs(
+$loader->registerNamespaces(
     [
-    $config->application->controllersDir,
-    $config->application->modelsDir
+        "App"   => $config->application->appDir
     ]
 )->register();
