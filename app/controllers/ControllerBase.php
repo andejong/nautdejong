@@ -25,9 +25,13 @@ class ControllerBase extends Controller
         ;
 
         if ($this->config->application_env === 'development') {
-            $styles->setPrefix('http://' . $_SERVER['HTTP_HOST'] . ':8081');
-            $scripts->setPrefix('http://' . $_SERVER['HTTP_HOST'] . ':8081');
+            $baseUrl = 'http://' . $_SERVER['HTTP_HOST'] . ':8081';
+        } else {
+            $baseUrl = 'https://' . $_SERVER['HTTP_HOST'];
         }
+
+        $styles->setPrefix($baseUrl);
+        $scripts->setPrefix($baseUrl);
 
         $this
             ->assets
