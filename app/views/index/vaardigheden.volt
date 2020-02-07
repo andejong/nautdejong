@@ -67,6 +67,10 @@
         </tbody>
     </table>
 </div>
+
+</section>
+<section class="row row-cols-1 row-cols-sm-3">
+
 <div class="col">
     <h2 class="p sans-serif text-muted">Applicaties</h2>
     <ul class="fa-ul">
@@ -102,6 +106,8 @@
             GNU&plus;Linux (Debian, Arch, Alpine, Void)
         </li>
     </ul>
+</div>
+<div class="col">
     <h2 class="p sans-serif text-muted">Ook ervaring met&hellip;</h2>
     <ul class="fa-ul">
         {% for item in aUsed %}
