@@ -10,7 +10,7 @@
 <title>{% if title is defined%}{{ title }} | {% endif %}Naut de Jong</title>
 
 <meta name="description" content="{{ description }}" />
-<meta name="keywords" content="Naut de Jong, Heemskerk, webdeveloper, webdev, developer, HTML, CSS, Bootstrap{% if keywords is defined %}, {{ keywords }}{% endif %}" />
+<meta name="keywords" content="Naut de Jong, Heemskerk, webdeveloper, webdev, developer, HTML, CSS, Bootstrap{% if aKeywords is defined %}{% for keyword in aKeywords %}, {{ keyword }}{% endfor %}{% endif %}" />
 <meta name="author" content="Naut de Jong" />
 
 {{ assets.outputCss('header') }}

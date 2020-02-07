@@ -30,16 +30,8 @@
         <caption>
             <h2 class="mb-0 p sans-serif">Programmeer- &amp; opmaaktalen</h2>
         </caption>
-        {% set skills = [
-            'HTML'			: '100',
-            'CSS'			: '100',
-            'Sass'			: '100',
-            'Volt'			: '90',
-            'PHP'			: '60',
-            'Javascript'	: '50'
-        ] %}
         <tbody>
-            {% for skill, progress in skills %}
+            {% for skill, progress in aSkills %}
                 <tr>
                     <th scope="row">{{ skill }}</th>
                     <td class="w-100">
@@ -59,15 +51,8 @@
         <caption>
             <h2 class="mb-0 p sans-serif">Frameworks/CMS</h2>
         </caption>
-        {% set frameworks = [
-            'Bootstrap'	: '100',
-            'WordPress'	: '90',
-            'Phalcon'	: '70',
-            'Vue.js'	: '60',
-            'jQuery'	: '50'
-        ] %}
         <tbody>
-            {% for framework, progress in frameworks %}
+            {% for framework, progress in aFrameworks %}
                 <tr>
                     <th scope="row">{{ framework }}</th>
                     <td class="w-100">
@@ -84,24 +69,8 @@
 </div>
 <div class="col">
     <h2 class="p sans-serif text-muted">Applicaties</h2>
-    {% set apps = [
-        'Docker',
-        'Git',
-        'Npm',
-        'Composer',
-        'Webpack',
-        'Grunt',
-        'Nuxt.js',
-        'MariaDB',
-        'PhpMyAdmin',
-        'DirectAdmin',
-        'Icinga',
-        'WooCommerce',
-        'YoastSEO',
-        'Wordfence'
-    ] %}
     <ul class="fa-ul">
-        {% for app in apps %}
+        {% for app in aApps %}
             <li>
                 <span class="fa-li">
                     <i class="fas fa-check-square"></i>
@@ -134,19 +103,8 @@
         </li>
     </ul>
     <h2 class="p sans-serif text-muted">Ook ervaring met&hellip;</h2>
-    {% set used = [
-        'Apache',
-        'NGINX',
-        'MySQL',
-        'TYPO3',
-        'TypoScript',
-        'Windows Server',
-        'Citrix Workspace',
-        'Python',
-        'C'
-    ] %}
     <ul class="fa-ul">
-        {% for item in used %}
+        {% for item in aUsed %}
             <li>
                 <span class="fa-li">
                     <i class="fas fa-check-square"></i>
