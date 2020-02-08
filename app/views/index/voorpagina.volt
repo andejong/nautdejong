@@ -18,7 +18,7 @@
 <p>
     Na mijn opleiding ben ik gaan werken bij Gorter Advisie en T-Boon Productions in Heemskerk.
     In dat jaar heb ik nog meer praktijkervaring opgedaan op het gebied van front-end webdevelopment.
-    Ik ben daar doorgegaan met Bootstrap websites bouwen maar ik ben ook met andere frameworks en applicaties in aanraking gekomen:
+    Ik ben daar doorgegaan met Bootstrap websites bouwen maar ik ben ook met andere frameworks en applicaties in aanraking gekomen -
     Vue.js en WordPress zijn daar voorbeelden van.
 </p>
 
@@ -53,9 +53,9 @@
     </div>
     <div class="card-body">
         <p class="card-text">
-        Op dit moment ben ik op zoek naar een nieuwe werkgever.
-        Bent u ge&iuml;nteresseerd?
-        Neem dan contact op!
+            Op dit moment ben ik op zoek naar een nieuwe werkgever.
+            Bent u ge&iuml;nteresseerd?
+            Neem dan contact op!
         </p>
     </div>
     <div class="card-footer">

@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<title>{% if title is defined%}{{ title }} | {% endif %}Naut de Jong</title>
+<title>{% if title is defined%}{{ title }} &vert; {% endif %}Naut de Jong</title>
 
 <meta name="description" content="{{ description }}" />
 <meta name="keywords" content="Naut de Jong, Heemskerk, webdeveloper, webdev, developer, HTML, CSS, Bootstrap{% if aKeywords is defined %}{% for keyword in aKeywords %}, {{ keyword }}{% endfor %}{% endif %}" />
