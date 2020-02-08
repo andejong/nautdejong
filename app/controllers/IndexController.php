@@ -73,11 +73,11 @@ class IndexController extends ControllerBase
             'bootstrap' => [
                 'Stichting Oer-IJ'                              => 'https://test.oerij.eu/',
                 'Beethoven Eten &amp; Drinken'                  => 'https://www.beethovenetenendrinken.nl/',
-                'HF Technology'	                                => 'https://www.hftechnology.nl/',
-                'De Tafelprinses'	                            => 'https://www.tafelprinses.nl/',
+                'HF Technology'                                 => 'https://www.hftechnology.nl/',
+                'De Tafelprinses'                               => 'https://www.tafelprinses.nl/',
                 'Stichting Vrienden van het Kleurenorkest'      => 'https://www.stichtingvriendenvanhetkleurenorkest.nl/',
-                'Bob en de Blue Band'	                        => 'http://www.bobendeblueband.com/',
-                'TK Bewindvoering'	                            => 'https://www.tkbewindvoering.nl/',
+                'Bob en de Blue Band'                           => 'http://www.bobendeblueband.com/',
+                'TK Bewindvoering'                              => 'https://www.tkbewindvoering.nl/',
                 'Vereniging Kennemer IJsbaan'                   => 'https://www.vkij.nl/',
                 'Algemene Begraafplaats Heemstede'              => 'https://www.begraafplaatsheemstede.nl',
                 'Stichting Vrienden Kinderboederij Heemstede'   => 'https://kinderboerderij-heemstede.nl/'
