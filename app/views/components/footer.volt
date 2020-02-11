@@ -15,7 +15,7 @@
 <small>
     <a rel="noreferrer" href="https://www.gorteradvisie.nl/" title="Hosting door Gorter Advisie" target="_blank" class="text-reset">
         Gorter Advisie{#
-        #}<i class="fas fa-server ml-1"></i>{#
+        #}<i class="fas fa-server mx-1"></i>{#
     #}</a>
     <a rel="noreferrer" href="https://creativecommons.org/licenses/by-sa/4.0/" title="Creative Commons Naamsvermelding-GelijkDelen 4.0 Internationale Publieke Licentie" target="_blank" class="text-reset">
         CC BY-SA 4.0{#

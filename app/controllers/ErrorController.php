@@ -6,7 +6,8 @@ namespace App\Controllers;
 
 class ErrorController extends ControllerBase
 {
-    public function foutmeldingAction() {
+    public function foutmeldingAction()
+    {
         $this->view->setRenderLevel(\Phalcon\Mvc\View::LEVEL_ACTION_VIEW);
         $this->view->pick('foutmelding');
         $this->view->title          = 'Foutmelding';

@@ -56,9 +56,7 @@ const config = {
         ]
     },
     plugins: [
-        new CleanWebpackPlugin({
-            minify: !IS_DEV
-        }),
+        new CleanWebpackPlugin({ minify: !IS_DEV }),
         new HtmlWebPackPlugin(),
         new ManifestPlugin(),
         new webpack.ProvidePlugin({
@@ -73,9 +71,7 @@ const config = {
             chunkFilename: 'css/frontend.css'
         }),
         new webpack.HashedModuleIdsPlugin(),
-        new PreloadWebpackPlugin({
-            include: 'initial'
-        }),
+        new PreloadWebpackPlugin({ include: 'initial' }),
         new CssUrlRelativePlugin()
     ],
     devServer: {

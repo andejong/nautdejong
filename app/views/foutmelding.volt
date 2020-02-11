@@ -30,14 +30,14 @@
 <main class="card m-3 mx-sm-auto text-center large">
 
 <div class="card-header">
-    <h1 class="card-title">Foutmelding</h1>
+    <h1 class="card-title h2">Foutmelding</h1>
 </div>
-<div class="card-body">
-    <i class="fas fa-exclamation-triangle fa-4x text-danger"></i>
-    <p class="card-text mt-3">Deze pagina bestaat niet.</p>
+<div class="card-body m-3">
+    <i class="fas fa-exclamation-triangle fa-4x text-danger mb-4"></i>
+    <p class="card-text">Deze pagina bestaat niet.</p>
 </div>
 <div class="card-footer">
-    <a class="btn btn-primary btn-lg btn-block stretched-link" href="/">
+    <a href="/" class="btn btn-primary btn-lg btn-block stretched-link">
         Voorpagina{#
         #}<i class="fas fa-home ml-1"></i>{#
     #}</a>
