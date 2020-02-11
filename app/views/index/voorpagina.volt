@@ -66,9 +66,9 @@
 </section>
 <article>
 
-<p>
+<p class="mb-0">
     Bekijk de website
-    <a href="https://github.com/andejong/nautdejong" target="_blank" rel="noreferrer">hier</a>
+    <a rel="noreferrer" href="https://github.com/andejong/nautdejong" target="_blank">hier</a>
     op GitHub.
 </p>
 

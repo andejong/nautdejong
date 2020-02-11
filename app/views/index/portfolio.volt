@@ -15,7 +15,7 @@
     <ul class="list-group">
         {% for project, link in aProjects["bootstrap"] %}
             <li class="list-group-item list-group-item-action">
-                <a class="stretched-link" href="{{ link }}" target="_blank" rel="noreferrer">{{ project }}</a>
+                <a rel="noreferrer" class="stretched-link" href="{{ link }}" target="_blank">{{ project }}</a>
             </li>
         {% endfor %}
     </ul>
@@ -25,7 +25,7 @@
     <ul class="list-group">
         {% for project, link in aProjects["vuetify"] %}
             <li class="list-group-item list-group-item-action">
-                <a class="stretched-link" href="{{ link }}" target="_blank" rel="noreferrer">{{ project }}</a>
+                <a rel="noreferrer" class="stretched-link" href="{{ link }}" target="_blank">{{ project }}</a>
             </li>
         {% endfor %}
     </ul>
@@ -35,7 +35,7 @@
     <ul class="list-group">
         {% for project, link in aProjects["wordpress"] %}
             <li class="list-group-item list-group-item-action">
-                <a class="stretched-link" href="{{ link }}" target="_blank" rel="noreferrer">{{ project }}</a>
+                <a rel="noreferrer" class="stretched-link" href="{{ link }}" target="_blank">{{ project }}</a>
             </li>
         {% endfor %}
     </ul>

@@ -15,7 +15,7 @@
 </p>
 <p>
     Op dit moment doe ik op
-    <a href="https://www.codecademy.com/" target="_blank" rel="noreferrer">
+    <a rel="noreferrer" href="https://www.codecademy.com/" target="_blank">
         Codecademy{#
         #}<i class="fas fa-external-link-alt fa-sm ml-1"></i>{#
     #}</a>
