@@ -68,7 +68,10 @@
 
 <p class="mb-0">
     Bekijk de website
-    <a rel="noreferrer" href="https://github.com/andejong/nautdejong" target="_blank">hier</a>
+    <a rel="noreferrer" href="https://github.com/andejong/nautdejong" target="_blank">
+        hier{#
+        #}<i class="fas fa-external-link-alt fa-sm ml-1"></i>{#
+    #}</a>
     op GitHub.
 </p>
 
