@@ -25,7 +25,7 @@ const config = {
                 loader: 'babel-loader'
             },
             {
-                test: /\.scss$/,
+                test: /\.s[ac]ss$/i,
                 exclude: /node_modules/,
                 use: [
                     {
@@ -34,10 +34,8 @@ const config = {
                             hmr: IS_DEV
                         }
                     },
-                    {
-                        loader: 'css-loader'
-                    },
-                    'sass-loader'
+                    { loader: 'css-loader' },
+                    { loader: 'sass-loader' }
                 ]
             },
             {

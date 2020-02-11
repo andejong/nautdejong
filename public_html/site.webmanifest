@@ -1,6 +1,9 @@
 {
     "name": "Naut de Jong",
     "short_name": "Naut de Jong",
+    "start_url": "https://nautdejong.nl",
+    "display": "browser",
+    "background_color": "#02000e",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

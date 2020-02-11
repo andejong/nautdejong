@@ -68,7 +68,7 @@
 
 <p>
     Bekijk de website
-    <a href="https://github.com/andejong/nautdejong" target="_blank">hier</a>
+    <a href="https://github.com/andejong/nautdejong" target="_blank" rel="noreferrer">hier</a>
     op GitHub.
 </p>
 

@@ -13,11 +13,11 @@
     <i class="fab fa-linux fa-fw"></i>
 </small>
 <small>
-    <a href="https://www.gorteradvisie.nl/" title="Hosting door Gorter Advisie" target="_blank" class="text-reset">
+    <a href="https://www.gorteradvisie.nl/" title="Hosting door Gorter Advisie" target="_blank" rel="noreferrer" class="text-reset">
         Gorter Advisie{#
         #}<i class="fas fa-server ml-1"></i>{#
     #}</a>
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/"title="Creative Commons Naamsvermelding-GelijkDelen 4.0 Internationale Publieke Licentie" target="_blank" class="text-reset">
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Creative Commons Naamsvermelding-GelijkDelen 4.0 Internationale Publieke Licentie" target="_blank" rel="noreferrer" class="text-reset">
         CC BY-SA 4.0{#
         #}<i class="fab fa-creative-commons-sa ml-1"></i>{#
     #}</a>

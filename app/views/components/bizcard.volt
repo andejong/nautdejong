@@ -8,7 +8,7 @@
                         <i class="fas fa-envelope-square fa-2x fa-fw ml-1"></i>
                     </th>
                     <td class="w-100">
-                        <a id="mail" class="d-inline-flex align-items-center btn btn-outline-primary">
+                        <a id="mail" rel="nofollow" class="d-inline-flex align-items-center btn btn-outline-primary">
                             <span class="sr-only">Afgeschermd</span>
                             <bdo data-insert="gnojedna"></bdo>{#
                             #}<i class="fas fa-at fa-sm"></i>{#
@@ -22,7 +22,7 @@
                         <i class="fas fa-phone-square-alt fa-2x fa-fw ml-1"></i>
                     </th>
                     <td>
-                        <a id="tel" class="d-inline-flex align-items-center btn btn-outline-primary">
+                        <a id="tel" rel="nofollow" class="d-inline-flex align-items-center btn btn-outline-primary">
                             <span class="sr-only">Afgeschermd</span>
                             <i class="fas fa-plus fa-sm"></i>{#
                             #}<bdo data-insert="13">&nbsp;</bdo>
@@ -47,7 +47,7 @@
                         <i class="fab fa-github fa-2x fa-fw ml-1"></i>
                     </th>
                     <td>
-                        <a href="https://github.com/andejong/" class="btn btn-outline-primary" target="_blank">
+                        <a href="https://github.com/andejong/" target="_blank" rel="noreferrer" class="btn btn-outline-primary">
                             andejong{#
                             #}<i class="fas fa-external-link-alt fa-sm ml-1"></i>{#
                         #}</a>
