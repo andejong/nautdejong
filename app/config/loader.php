@@ -7,4 +7,5 @@ $loader
         "App"               => $config->application->appDir,
         "App\Controller"    => $config->application->controllersDir
     ])
-    ->register();
+    ->register()
+;

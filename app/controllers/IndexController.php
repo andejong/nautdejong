@@ -14,10 +14,8 @@ class IndexController extends ControllerBase
     public function vaardighedenAction()
     {
         $this->view->title          = 'Vaardigheden';
-        $this->view->description    = 'Vaardigheden Naut de Jong';
-        $this->view->aKeywords      = [
-            'vaardigheden'
-        ];
+        $this->view->description    = 'Vaardigheden Naut de Jong.';
+        $this->view->aKeywords      = ['vaardigheden'];
         $this->view->aSkills        = [
             'HTML'          => '100',
             'CSS'           => '100',
@@ -65,10 +63,8 @@ class IndexController extends ControllerBase
     public function portfolioAction()
     {
         $this->view->title          = 'Portfolio';
-        $this->view->description    = 'Portfolio van Naut de Jong';
-        $this->view->aKeywords      = [
-            'portfolio'
-        ];
+        $this->view->description    = 'Portfolio van Naut de Jong.';
+        $this->view->aKeywords      = ['portfolio'];
         $this->view->aProjects      = [
             'bootstrap' => [
                 'Stichting Oer-IJ'                              => 'https://test.oerij.eu/',
@@ -96,9 +92,7 @@ class IndexController extends ControllerBase
     public function contactAction()
     {
         $this->view->title          = 'Contact';
-        $this->view->description    = 'Neem contact op met Naut de Jong';
-        $this->view->aKeywords      = [
-            'contact'
-        ];
+        $this->view->description    = 'Neem contact op met Naut de Jong.';
+        $this->view->aKeywords      = ['contact'];
     }
 }
