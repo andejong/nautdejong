@@ -3,6 +3,7 @@
     "short_name": "Naut de Jong",
     "start_url": "https://nautdejong.nl",
     "display": "browser",
+    "theme_color": "ffffff",
     "background_color": "#02000e",
     "icons": [
         {
