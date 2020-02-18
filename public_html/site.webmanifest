@@ -24,7 +24,7 @@
     "runtime.js.map": "js/frontend.js.map",
     "vendor.js": "js/2.frontend.js",
     "vendor.js.map": "js/2.frontend.js.map",
-    "font/index.scss": "font/fa-solid-900-f6121be597a72928f54e7ab5b95512a1.woff2",
+    "font/index.scss": "font/fa-solid-900-cdfec5cf5e9840889790bcf2c4042583.woff",
     "index.php": "index.php",
     "js/2.frontend.js.LICENSE.txt": "js/2.frontend.js.LICENSE.txt"
 }
