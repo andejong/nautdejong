@@ -17,8 +17,8 @@ class IndexController extends ControllerBase
         $this->view->description    = 'Vaardigheden Naut de Jong.';
         $this->view->aKeywords      = ['vaardigheden'];
         $this->view->aSkills        = [
-            'HTML5'          => '100',
-            'CSS3'           => '100',
+            'HTML5'         => '100',
+            'CSS3'          => '100',
             'Sass'          => '100',
             'Volt'          => '90',
             'PHP'           => '60',
