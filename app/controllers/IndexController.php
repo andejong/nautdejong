@@ -21,7 +21,7 @@ class IndexController extends ControllerBase
             'CSS3'          => '100',
             'Sass'          => '100',
             'Volt'          => '90',
-            'PHP'           => '60',
+            'PHP'           => '65',
             'Javascript'    => '50'
         ];
         $this->view->aFrameworks    = [

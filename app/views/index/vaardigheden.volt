@@ -19,7 +19,7 @@
         Codecademy{#
         #}<i class="fas fa-external-link-alt fa-sm ml-1"></i>{#
     #}</a>
-    een cursus PHP.
+    een cursus PHP en een cursus Javascript.
 </p>
 
 </article>
