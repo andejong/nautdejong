@@ -8,7 +8,7 @@
 </p>
 
 </article>
-<section class="row row-cols-1 row-cols-sm-3">
+{#<section class="row row-cols-1 row-cols-sm-3">
 
 <div class="col">
     <h2 class="p sans-serif text-muted">Bootstrap</h2>
@@ -40,5 +40,25 @@
         {% endfor %}
     </ul>
 </div>
+
+</section>#}
+
+<section class="card-columns mx-sm-n3">
+
+{% for testp, testa in test %}
+<div class="card">
+    <img src="{{ testa['img'] }}" class="card-img-top border" alt="{{ testp }}" />
+    <div class="card-header">
+        <a rel="noreferrer" href="{{ testa['link'] }}" target="_blank" class="card-title btn btn-link stretched-link">
+            <h2 class="mb-0">{{ testp }}</h2>
+        </a>
+    </div>
+    {% if testa['desc'] is defined %}
+        <div class="card-body">
+            <p class="card-text">{{ testa['desc'] }}</p>
+        </div>
+    {% endif %}
+</div>
+{% endfor %}
 
 </section>

@@ -119,6 +119,13 @@ article {
 .btn {
     letter-spacing:	.05rem;
 
+    &-link {
+        letter-spacing: normal;
+        text-align:     inherit;
+        vertical-align: inherit;
+        padding:        0;
+    }
+
     &-outline-primary:not([href]) {
         color:  $primary;
 
@@ -190,6 +197,10 @@ article {
 
 /* Cards */
 .card {
+    &-header:last-child {
+        border-bottom: 0;
+    }
+
     &-title {
         margin-bottom: 0;
     }
@@ -199,6 +210,8 @@ article {
         font-size:		105%;
     }
 }
+
+.card-header 
 
 /* List group */
 .list-group-item-action {
