@@ -107,7 +107,7 @@ $font-size-lg:      $font-size-base * 1.125;
 $line-height-base:  1.6;
 $line-height-lg:    $line-height-base * 1.125;
 
-$h2-font-size:      $font-size-base * 1.6;
+$h2-font-size:  $font-size-base * 1.6;
 
 $headings-font-family:      var(--font-family-serif);
 $headings-line-height:      1;
@@ -141,7 +141,7 @@ $nav-link-padding-y:    $navbar-padding-x * 2;
 $card-spacer-y:     $spacer * 1.125;
 $card-border-color: transparentize(black, .9);
 $card-cap-bg:       $violet_very-pale;
-$card-group-margin: $grid-gutter-width * .25;
+$card-group-margin: $grid-gutter-width * .325;
 
 /* Progress bars */
 $progress-height:               $spacer * 1.5;

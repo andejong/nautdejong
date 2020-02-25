@@ -17,11 +17,11 @@ class IndexController extends ControllerBase
         $this->view->description    = 'Vaardigheden Naut de Jong.';
         $this->view->aKeywords      = ['vaardigheden'];
         $this->view->aSkills        = [
-            'HTML'          => '100',
-            'CSS'           => '100',
+            'HTML5'         => '100',
+            'CSS3'          => '100',
             'Sass'          => '100',
             'Volt'          => '90',
-            'PHP'           => '60',
+            'PHP'           => '65',
             'Javascript'    => '50'
         ];
         $this->view->aFrameworks    = [
@@ -50,11 +50,13 @@ class IndexController extends ControllerBase
         $this->view->aUsed          = [
             'Apache',
             'NGINX',
+            'Laravel',
             'MySQL',
             'TYPO3',
             'TypoScript',
             'Windows Server',
             'Citrix Workspace',
+            'TeX',
             'Python',
             'C'
         ];
@@ -86,6 +88,62 @@ class IndexController extends ControllerBase
                 'AC Borst Bouw'                 => 'https://www.acborst.nl/',
                 'Waardse Senioren in Beweging'  => 'https://www.wsib.nl/'
             ]
+        ];
+        $this->view->test = [
+            'Stichting Oer-IJ'                              => [
+                'link'  => 'https://test.oerij.eu/',
+                'img'   => '/img/stichting-oer-ij.jpg'
+            ],
+            'Kaart van Stichting Oer-IJ'                    => [
+                'link'  => 'https://kaart.oerij.eu/',
+                'img'   => '/img/kaart-van-stichting-oer-ij.jpg',
+                'desc'  => 'Gemaakt in Vue.js'
+            ],
+            'Beethoven Eten &amp; Drinken'                  => [
+                'link'  => 'https://www.beethovenetenendrinken.nl/',
+                'img'   => '/img/beethoven-eten-en-drinken.jpg'
+            ],
+            'Stichting Vrienden Kinderboederij Heemstede'   => [
+                'link'  => 'https://www.kinderboerderij-heemstede.nl/',
+                'img'   => '/img/stichting-vrienden-kinderboerderij-heemstede.jpg'
+            ],
+            'HF Technology'                                 => [
+                'link'  => 'https://www.hftechnology.nl/',
+                'img'   => '/img/hf-technology.jpg'
+            ],
+            'De Tafelprinses'                               => [
+                'link'  => 'https://www.tafelprinses.nl/',
+                'img'   => '/img/de-tafelprinses.jpg'
+            ],
+            'Stichting Vrienden van het Kleurenorkest'      => [
+                'link'  => 'https://www.stichtingvriendenvanhetkleurenorkest.nl/',
+                'img'   => '/img/stichting-vrienden-van-het-kleurenorkest.jpg'
+            ],
+            'Bob en de Blue Band'                           => [
+                'link'  => 'http://www.bobendeblueband.com/',
+                'img'   => '/img/bob-en-de-blue-band.jpg'
+            ],
+            'TK Bewindvoering'                              => [
+                'link'  => 'https://www.tkbewindvoering.nl/',
+                'img'   => '/img/tk-bewindvoering.jpg'
+            ],
+            'Vereniging Kennemer IJsbaan'                   => [
+                'link'  => 'https://www.vkij.nl/',
+                'img'   => '/img/vereniging-kennemer-ijsbaan.jpg'
+            ],
+            'Waardse Senioren in Beweging'                  => [
+                'link'  => 'https://www.wsib.nl/',
+                'img'   => '/img/waardse-senioren-in-beweging.jpg',
+                'desc'  => 'WordPress website met WooCommerce webshop'
+            ],
+            'AC Borst Bouw'                                 => [
+                'link'  => 'https://www.acborst.nl/',
+                'img'   => '/img/ac-borst-bouw.jpg'
+            ]
+            // 'Salmay Communicatie'           => [
+            //     'link'  => 'https://www.salmay.nl/',
+            //     'img'   => '/img/salmay-communicatie.jpg'
+            // ]
         ];
     }
 

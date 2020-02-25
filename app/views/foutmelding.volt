@@ -13,6 +13,8 @@
 <meta name="keywords" content="Naut de Jong, Heemskerk, webdeveloper, webdev, developer, HTML, CSS, Bootstrap{% if aKeywords is defined %}{% for keyword in aKeywords %}, {{ keyword }}{% endfor %}{% endif %}" />
 <meta name="author" content="Naut de Jong" />
 
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+
 {{ assets.outputCss('header') }}
 {{ assets.outputCss('header-remote') }}
 
