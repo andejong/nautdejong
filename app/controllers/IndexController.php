@@ -67,32 +67,11 @@ class IndexController extends ControllerBase
         $this->view->title          = 'Portfolio';
         $this->view->description    = 'Portfolio van Naut de Jong.';
         $this->view->aKeywords      = ['portfolio'];
-        // $this->view->aProjects      = [
-        //     'bootstrap' => [
-        //         'Stichting Oer-IJ'                              => 'https://test.oerij.eu/',
-        //         'Beethoven Eten &amp; Drinken'                  => 'https://www.beethovenetenendrinken.nl/',
-        //         'HF Technology'                                 => 'https://www.hftechnology.nl/',
-        //         'De Tafelprinses'                               => 'https://www.tafelprinses.nl/',
-        //         'Stichting Vrienden van het Kleurenorkest'      => 'https://www.stichtingvriendenvanhetkleurenorkest.nl/',
-        //         'Bob en de Blue Band'                           => 'http://www.bobendeblueband.com/',
-        //         'TK Bewindvoering'                              => 'https://www.tkbewindvoering.nl/',
-        //         'Vereniging Kennemer IJsbaan'                   => 'https://www.vkij.nl/',
-        //         'Algemene Begraafplaats Heemstede'              => 'https://www.begraafplaatsheemstede.nl',
-        //         'Stichting Vrienden Kinderboederij Heemstede'   => 'https://kinderboerderij-heemstede.nl/'
-        //     ],
-        //     'vuetify'   => [
-        //         'Kaart van Stichting Oer-IJ'    => 'https://kaart.oerij.eu/'
-        //     ],
-        //     'wordpress' => [
-        //         'Salmay Communicatie'           => 'https://www.salmay.nl/',
-        //         'AC Borst Bouw'                 => 'https://www.acborst.nl/',
-        //         'Waardse Senioren in Beweging'  => 'https://www.wsib.nl/'
-        //     ]
-        // ];
         $this->view->aProjects      = [
             'Stichting Oer-IJ'                              => [
                 'link'  => 'https://test.oerij.eu/',
-                'img'   => '/img/stichting-oer-ij.jpg'
+                'img'   => '/img/stichting-oer-ij.jpg',
+                'desc'  => 'De website is gemaakt in Bootstrap 4 en Phalcon PHP framework'
             ],
             'Kaart van Stichting Oer-IJ'                    => [
                 'link'  => 'https://kaart.oerij.eu/',
@@ -105,7 +84,8 @@ class IndexController extends ControllerBase
             ],
             'Stichting Vrienden Kinderboederij Heemstede'   => [
                 'link'  => 'https://www.kinderboerderij-heemstede.nl/',
-                'img'   => '/img/stichting-vrienden-kinderboerderij-heemstede.jpg'
+                'img'   => '/img/stichting-vrienden-kinderboerderij-heemstede.jpg',
+                'desc'  => 'Destijds gemaakt in Bootstrap 3 en Typo3 CMS'
             ],
             'HF Technology'                                 => [
                 'link'  => 'https://www.hftechnology.nl/',
@@ -140,6 +120,11 @@ class IndexController extends ControllerBase
                 'link'  => 'https://www.acborst.nl/',
                 'img'   => '/img/ac-borst-bouw.jpg'
             ]
+            // 'Algemene Begraafplaats Heemstede'              => [
+            //     'link'  => 'https://www.begraafplaatsheemstede.nl/',
+            //     'img'   => '/img/algemene-begraafplaats-heemstede.jpg',
+            //     'desc'  => 'Destijds gemaakt in Bootstrap 3 en Typo3 CMS'
+            // ]
             // 'Salmay Communicatie'                           => [
             //     'link'  => 'https://www.salmaynew.nl/',
             //     'img'   => '/img/salmay-communicatie.jpg'

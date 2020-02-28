@@ -211,17 +211,6 @@ article {
     }
 }
 
-/* List group */
-// .list-group-item-action {
-//     font-size:		$font-size-base;
-//     line-height:	$line-height-base;
-//     transition:		$btn-transition;
-
-//     &:hover {
-//         text-decoration:	underline;
-//     }
-// }
-
 /* Anti-bot */
 bdo::before {
     content:		attr(data-insert);
