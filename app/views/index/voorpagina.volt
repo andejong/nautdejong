@@ -2,11 +2,11 @@
 
 <h1>Welkom</h1>
 <p class="lead">
-    Mijn naam is Naut de Jong en ik ben front-end webdeveloper.
+    Mijn naam is Naut de Jong en ik ben programmeur.
     Welkom op mijn website.
 </p>
 <p>
-    Deze website heb ik gemaakt om mijn vaardigheden als webdeveloper vast te leggen,
+    Deze website heb ik gemaakt om mijn vaardigheden als programmeur vast te leggen,
     en fungeert tevens als visitekaartje.
 </p>
 <p>
@@ -20,6 +20,10 @@
     In dat jaar heb ik nog meer praktijkervaring opgedaan op het gebied van front-end webdevelopment.
     Ik ben daar doorgegaan met Bootstrap websites bouwen maar ik ben ook met andere frameworks en applicaties in aanraking gekomen -
     Vue.js en WordPress zijn daar voorbeelden van.
+</p>
+<p>
+    Op dit moment werk ik bij de Koninklijke VSA van Halverhout &amp; Zwart en Zurm&uuml;hlen te IJmuiden.
+    Daar leer ik met Angular en C# .NET applicaties te bouwen.
 </p>
 
 </article>
@@ -53,9 +57,9 @@
     </div>
     <div class="card-body">
         <p class="card-text">
-            Op dit moment ben ik op zoek naar een nieuwe werkgever.
-            Bent u ge&iuml;nteresseerd?
-            Neem dan contact op!
+            Op dit moment ben ik niet op zoek naar een nieuwe werkgever.
+            Wilt u toch contact opnemen,
+            volg dan deze pagina.
         </p>
     </div>
     <div class="card-footer">

@@ -22,19 +22,24 @@ class IndexController extends ControllerBase
             'Sass'          => '100',
             'Volt'          => '90',
             'PHP'           => '65',
-            'Javascript'    => '50'
+            'Javascript'    => '65',
+            'C#'            => '25'
         ];
         $this->view->aFrameworks    = [
             'Bootstrap' => '100',
             'WordPress' => '100',
             'Phalcon'   => '70',
             'Vue.js'    => '60',
-            'jQuery'    => '50'
+            'jQuery'    => '50',
+            'Angular'   => '40',
+            '.NET'      => '10'
         ];
         $this->view->aApps          = [
             'Docker',
             'Git',
             'Npm',
+            'Visual Studio Code',
+            'Visual Studio 2019',
             'Composer',
             'Webpack',
             'Grunt',
@@ -124,7 +129,7 @@ class IndexController extends ControllerBase
             //     'link'  => 'https://www.begraafplaatsheemstede.nl/',
             //     'img'   => '/img/algemene-begraafplaats-heemstede.jpg',
             //     'desc'  => 'Destijds gemaakt in Bootstrap 3 en Typo3 CMS'
-            // ]
+            // ],
             // 'Salmay Communicatie'                           => [
             //     'link'  => 'https://www.salmaynew.nl/',
             //     'img'   => '/img/salmay-communicatie.jpg'
