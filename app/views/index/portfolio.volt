@@ -45,17 +45,17 @@
 
 <section class="card-columns mx-sm-n3">
 
-{% for testp, testa in test %}
+{% for projectTitle, project in aProjects %}
 <div class="card">
-    <img src="{{ testa['img'] }}" class="card-img-top border" alt="{{ testp }}" />
+    <img src="{{ project['img'] }}" class="card-img-top border" alt="{{ projectTitle }}" />
     <div class="card-header">
-        <a rel="noreferrer" href="{{ testa['link'] }}" target="_blank" class="card-title btn btn-link stretched-link">
-            <h2 class="mb-0">{{ testp }}</h2>
+        <a rel="noreferrer" href="{{ project['link'] }}" target="_blank" class="card-title btn btn-link stretched-link">
+            <h2 class="mb-0">{{ projectTitle }}</h2>
         </a>
     </div>
-    {% if testa['desc'] is defined %}
+    {% if project['desc'] is defined %}
         <div class="card-body">
-            <p class="card-text">{{ testa['desc'] }}</p>
+            <p class="card-text">{{ project['desc'] }}</p>
         </div>
     {% endif %}
 </div>
